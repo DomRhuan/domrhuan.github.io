@@ -1,0 +1,512 @@
+/* Estilos específicos para a página de administração */
+
+.admin-container {
+  max-width: 900px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.admin-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.admin-search {
+  flex: 1;
+  margin-bottom: 0;
+  min-width: 250px;
+}
+
+.admin-btn {
+  padding: 12px 20px;
+  background-color: lch(17.53% 0 296.81);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.admin-btn:hover {
+  background-color: hsl(0, 0%, 82%);
+}
+
+.prescriptions-list {
+  background: var(--box-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow);
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.prescription-item {
+  padding: 15px 20px;
+  border-bottom: 1px solid #404040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.prescription-item:last-child {
+  border-bottom: none;
+}
+
+.prescription-item:hover {
+  background-color: #f1f1f1;
+}
+
+.prescription-info {
+  flex: 1;
+}
+
+.prescription-name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.prescription-key {
+  font-size: 14px;
+  color: #888;
+  font-family: 'Courier New', monospace;
+}
+
+.prescription-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.edit-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0b7dda;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: var(--box-bg);
+  margin: 5% auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 700px;
+  position: relative;
+  animation: modalFadeIn 0.3s;
+}
+
+.confirm-modal {
+  max-width: 500px;
+  text-align: center;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.close-modal:hover {
+  color: #888;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #404040;
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+  font-family: 'Courier New', monospace;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 5px;
+  color: #888;
+  font-size: 12px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.save-btn, .cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.save-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn {
+  background-color: #757575;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #616161;
+}
+
+/* Notification styles */
+.status-notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 25px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1100;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.status-notification.success {
+  background-color: #4CAF50;
+}
+
+.status-notification.error {
+  background-color: #f44336;
+}
+
+.status-notification.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.loading {
+  text-align: center;
+  padding: 30px;
+  color: #888;
+  font-style: italic;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 15px; /* Adjusted padding */
+  }
+
+  h2 {
+    margin-bottom: 20px; /* Adjusted margin */
+    font-size: 20px; /* Adjusted font size */
+  }
+
+  .admin-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px; /* Adjusted gap */
+  }
+  
+  .admin-search {
+    width: 100%;
+    min-width: unset; /* Remove min-width */
+  }
+  
+  .admin-btn {
+    padding: 10px 16px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+    margin: 10% auto;
+  }
+  
+  .prescription-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 15px; /* Adjusted padding */
+  }
+  
+  .prescription-name {
+    font-size: 16px; /* Adjusted font size */
+  }
+
+  .prescription-key {
+    font-size: 12px; /* Adjusted font size */
+  }
+
+  .prescription-actions {
+    margin-top: 10px;
+    align-self: flex-end;
+    gap: 8px; /* Adjusted gap */
+  }
+
+  .edit-btn, .delete-btn {
+    padding: 6px 10px; /* Adjusted padding */
+    font-size: 12px; /* Adjusted font size */
+  }
+
+  .modal-content {
+    padding: 20px; /* Adjusted padding */
+  }
+
+  .form-group {
+    margin-bottom: 15px; /* Adjusted margin */
+  }
+
+  .form-group input, .form-group textarea {
+    padding: 10px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+  }
+
+  .form-buttons {
+    gap: 10px; /* Adjusted gap */
+    margin-top: 20px; /* Adjusted margin */
+  }
+
+  .save-btn, .cancel-btn {
+    padding: 8px 16px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+  }
+
+  .status-notification {
+    bottom: 10px; /* Adjusted position */
+    right: 10px; /* Adjusted position */
+    padding: 10px 20px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+  }
+}
+
+/* Light mode adjustments */
+
+
+/* Accordion styles */
+.categoria-wrapper {
+    margin-bottom: 20px;
+    border: 1px solid #404040;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoria-header {
+    width: 100%;
+    background-color: #f1f1f1;
+    color: white;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+
+.categoria-conteudo {
+    display: none;
+    background-color: var(--box-bg);
+}
+
+.categoria-wrapper.aberto .categoria-conteudo {
+    display: block;
+}
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  select {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+  }
+@media (prefers-color-scheme: dark) {
+  .admin-btn {
+    background-color: #5a6268; /* Darker shade for dark theme */
+  }
+
+  .admin-btn:hover {
+    background-color: #6c757d; /* Slightly lighter hover for dark theme */
+  }
+
+  .prescription-item {
+    border-bottom-color: #555; /* Adjusted border color for dark theme */
+  }
+
+  .prescription-item:hover {
+    background-color: #333; /* Darker hover for dark theme */
+  }
+
+  .prescription-key,
+  .form-group small,
+  .loading {
+    color: #bbb; /* Lighter text for dark theme */
+  }
+
+  .edit-btn {
+    background-color: #0277bd; /* Darker blue for dark theme */
+  }
+
+  .edit-btn:hover {
+    background-color: #01579b; /* Even darker blue for dark theme */
+  }
+
+  .delete-btn {
+    background-color: #d32f2f; /* Keep red, maybe slightly adjusted */
+  }
+
+.delete-btn:hover {
+    background-color: #b71c1c; /* Darker red */
+  }
+
+  .modal-content {
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1); /* Adjusted shadow for dark theme */
+  }
+
+  .form-group input,
+  .form-group textarea {
+    border-color: #555; /* Adjusted border color for dark theme */
+  }
+
+  .save-btn {
+    background-color: #388e3c; /* Darker green for dark theme */
+  }
+
+  .save-btn:hover {
+    background-color: #2e7d32; /* Even darker green */
+  }
+
+  .cancel-btn {
+    background-color: #5a5a5a; /* Darker gray for dark theme */
+  }
+
+  .cancel-btn:hover {
+    background-color: #424242; /* Even darker gray */
+  }
+
+  .status-notification.success {
+    background-color: #388e3c; /* Match save button green */
+  }
+
+  .status-notification.error {
+    background-color: #d32f2f; /* Match delete button red */
+  }
+
+  .categoria-wrapper {
+    border-color: #555; /* Adjusted border color for dark theme */
+  }
+
+  .categoria-header {
+    background-color: #333; /* Darker header for dark theme */
+    color: #ffffff; /* White text for dark theme */
+  }
+
+  select {
+    border-color: #555; /* Adjusted border color for dark theme */
+    background-color: #2d2d2d !important; /* Darker background for dark theme */
+    color: #ffffff !important; /* White text for dark theme */
+  }
+
+  select:focus {
+    border-color: #039be5; /* Adjusted focus color for dark theme */
+    background-color: #2d2d2d !important; /* Keep dark background on focus */
+    color: #ffffff !important; /* Keep white text on focus */
+  }
+}

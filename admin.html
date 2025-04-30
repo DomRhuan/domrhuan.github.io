@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciar Prescrições - Plantão Helper</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="container admin-container">
+    <h1><a href="index.html" class="logo-link">Plantão Helper</a></h1>
+    <h2>Gerenciador de Prescrições</h2>
+    
+    <div class="admin-controls">
+      <button id="addNewBtn" class="admin-btn">Adicionar Nova Prescrição</button>
+      <div class="search-box admin-search">
+        <input
+          type="text"
+          id="adminSearchInput"
+          placeholder="Filtrar prescrições..."
+          autocomplete="off"
+        />
+      </div>
+    </div>
+
+    <div id="prescriptionsList" class="prescriptions-list">
+      <!-- Lista de prescrições será carregada aqui -->
+    </div>
+
+    <!-- Modal para adicionar/editar prescrição -->
+    <div id="prescriptionModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3 id="modalTitle">Adicionar Prescrição</h3>
+        
+        <form id="prescriptionForm">
+          <style>
+            .form-group {
+              margin-bottom: 1rem;
+            }
+          
+            label {
+              font-weight: bold;
+              display: block;
+              margin-bottom: 0.5rem;
+            }
+          
+            select {
+              width: 100%;
+              padding: 0.6rem;
+              border-radius: 8px;
+              border: 1px solid #ccc;
+              background-color: #f9f9f9;
+              font-size: 1rem;
+              transition: border-color 0.3s ease;
+            }
+          
+            select:focus {
+              border-color: #007bff;
+              outline: none;
+              background-color: #fff;
+            }
+          </style>
+          <div class="form-group">
+            <label for="prescriptionArea">Área da Medicina:</label>
+            <select id="prescriptionArea" required>
+              <option value="">Selecione uma área</option>
+              <option value="Alergologia">Alergologia</option>
+              <option value="Cardiologia">Cardiologia</option>
+              <option value="Dermatologia">Dermatologia</option>
+              <option value="Emergência">Emergência</option>
+              <option value="Gastroenterologia">Gastroenterologia</option>
+              <option value="Infectologia">Infectologia</option>
+              <option value="Neurologia">Neurologia</option>
+              <option value="Oftalmologia">Oftalmologia</option>
+              <option value="Otorrinolaringologia">Otorrinolaringologia</option>
+              <option value="Pediatria">Pediatria</option>
+              <option value="Psiquiatria">Psiquiatria</option>
+              <option value="Reumatologia">Reumatologia</option>
+              <option value="Urologia">Urologia</option>
+              <!-- adicione outras áreas conforme necessidade -->
+            </select>
+          </div>         
+          <div class="form-group">
+            <label for="prescriptionName">Nome da Prescrição:</label>
+            <input type="text" id="prescriptionName" required placeholder="Ex: RINITE ALÉRGICA">
+          </div>
+          
+          <div class="form-group">
+            <label for="prescriptionText">Texto da Prescrição:</label>
+            <textarea id="prescriptionText" rows="10" required placeholder="Digite o texto da prescrição aqui..."></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="prescriptionInfo">Informações Adicionais:</label>
+            <input type="text" id="prescriptionInfo" placeholder="Ex: Condição médica que requer prescrição específica.">
+          </div>
+          
+          <div class="form-group">
+            <label for="prescriptionSynonyms">Sinônimos (separados por vírgula):</label>
+            <input type="text" id="prescriptionSynonyms" placeholder="Ex: rinite, alergia nasal">
+          </div>
+          
+          <div class="form-buttons">
+            <button type="submit" class="save-btn">Salvar</button>
+            <button type="button" class="cancel-btn">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal de confirmação para exclusão -->
+    <div id="confirmDeleteModal" class="modal">
+      <div class="modal-content confirm-modal">
+        <h3>Confirmar Exclusão</h3>
+        <p>Tem certeza que deseja excluir esta prescrição? Esta ação não pode ser desfeita.</p>
+        <div class="form-buttons">
+          <button id="confirmDeleteBtn" class="delete-btn">Excluir</button>
+          <button id="cancelDeleteBtn" class="cancel-btn">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notificação de status -->
+    <div id="statusNotification" class="status-notification"></div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
