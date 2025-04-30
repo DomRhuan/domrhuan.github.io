@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plantão Helper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header-container">
+      <h1><a href="index.html" class="logo-link">Plantão Helper</a></h1>
+      <a href="admin.html" class="admin-link">⚙️</a>
+    </div>
+    <div class="search-box">
+        <input
+        type="text"
+        id="searchInput"
+        placeholder="Digite um diagnóstico..."
+        onkeydown="if (event.key === 'Enter') buscar(true)"
+        oninput="buscar(false)"
+        autocomplete="off"
+      />
+      <div id="sugestoes" class="sugestoes"></div>
+    </div>
+    <div class="result" id="resultBox" style="display: none;">
+    </div>
+  </div>
+
+  <!-- Carrega banco.json e depois o script -->
+  <script>
+    let bancoDeDados = {};
+
+    fetch("banco.json")
+      .then(response => response.json())
+      .then(data => {
+        bancoDeDados = data;
+
+        // Depois de carregar o banco, carregue o script principal
+        const script = document.createElement('script');
+        script.src = "script.js";
+        document.body.appendChild(script);
+      })
+      .catch(err => {
+        console.error("Erro ao carregar banco.json:", err);
+        document.body.innerHTML += `<div style="color:red;">Erro ao carregar banco de dados.</div>`;
+      });
+  </script>
+</body>
+</html>

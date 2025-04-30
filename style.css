@@ -1,0 +1,328 @@
+  
+  
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --input-bg: #ffffff;
+    --input-text: #000000;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --box-bg: #ffffff;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #1e1e1e;
+      --text-color: #ffffff;
+      --input-bg: #2d2d2d;
+      --input-text: #ffffff;
+      --shadow: rgba(255, 255, 255, 0.1);
+      --box-bg: #2d2d2d;
+    }
+
+  .prescricao-content {
+    background-color: #2d2d2d !important; /* Darker background for dark theme */
+    border-color: #555 !important; /* Adjusted border color for dark theme */
+    color: #ffffff !important; /* White text for dark theme */
+  }
+  }
+  
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative; /* Keep relative for admin-link positioning */
+  }
+  
+  .admin-link {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute; /* Position absolutely within header-container */
+    right: 10px; /* Adjust position */
+    top: 50%; /* Vertically center */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    font-size: 24px;
+    color: var(--text-color);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .admin-link:hover {
+    opacity: 1;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+    color: var(--text-color);
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    max-width: 600px;
+    padding: 16px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 1px solid #404040;
+    background-color: var(--input-bg);
+    color: var(--input-text);
+    box-shadow: 0 4px 10px var(--shadow);
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .sugestoes {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--box-bg);
+    border: 1px solid #404040;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 10px var(--shadow);
+    display: none;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .sugestao-item {
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: left;
+  }
+  
+  .sugestao-item:hover {
+    background-color: #f1f1f127;
+  }
+  
+  .result {
+    margin-top: 20px;
+    background: var(--box-bg);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px var(--shadow);
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .prescricao-content {
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+    color: #000000;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  /* Animação de entrada suave */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .result {
+    opacity: 1;
+    animation: none;
+    animation-fill-mode: forwards;
+  }
+  .result.aparecendo {
+    animation: fadeInUp 0.4s ease-out;
+  }
+  .copy-btn {
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .copy-btn:hover {
+    background-color: #7c7c7c;
+  }
+
+  .copy-btn.copiado {
+    background-color: #4CAF50;
+    animation: pulse 0.5s ease;
+  }
+
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+
+
+  .logo-link {
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+
+  .logo-link:hover {
+    opacity: 0.8;
+  }
+
+  /* Media Queries para dispositivos móveis */
+  @media (max-width: 768px) {
+    .container {
+        padding: 15px; /* Increased padding slightly */
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    
+    .header-container {
+        margin-bottom: 30px; /* Adjusted margin */
+    }
+
+    .admin-link {
+        right: 5px; /* Adjusted position */
+        font-size: 20px; /* Slightly smaller icon */
+    }
+
+    input[type="text"] {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .result {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .prescricao-content {
+        font-size: 13px;
+        padding: 12px;
+    }
+
+    .copy-btn {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .sugestao-item {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        padding: 10px; /* Adjusted padding */
+    }
+
+    .header-container {
+        margin-bottom: 20px; /* Adjusted margin */
+    }
+
+    .admin-link {
+        right: 0px; /* Adjusted position */
+        font-size: 18px; /* Slightly smaller icon */
+    }
+
+    input[type="text"] {
+        padding: 10px 14px; /* Adjusted padding */
+        font-size: 14px; /* Adjusted font size */
+    }
+
+    .result {
+        padding: 12px;
+    }
+
+    .prescricao-content {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .copy-btn {
+        padding: 8px 14px; /* Adjusted padding */
+        font-size: 12px; /* Adjusted font size */
+    }
+
+    .sugestao-item {
+        padding: 8px 14px; /* Adjusted padding */
+        font-size: 12px; /* Adjusted font size */
+    }
+  }
