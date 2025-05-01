@@ -176,7 +176,7 @@
           
           // Volta ao normal após 2 segundos
           setTimeout(() => {
-              copyButton.textContent = 'Copiar Prescrição';
+              copyButton.textContent = 'Copiar';
               copyButton.classList.remove('copiado');
           }, 2000);
       } catch(err) {
