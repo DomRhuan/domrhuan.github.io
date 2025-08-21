@@ -1,29 +1,18 @@
   
   
   :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-    --input-bg: #ffffff;
-    --input-text: #000000;
-    --shadow: rgba(0, 0, 0, 0.1);
-    --box-bg: #ffffff;
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --input-bg: #2d2d2d;
+    --input-text: #ffffff;
+    --shadow: rgba(255, 255, 255, 0.1);
+    --box-bg: #2d2d2d;
   }
-  
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg-color: #1e1e1e;
-      --text-color: #ffffff;
-      --input-bg: #2d2d2d;
-      --input-text: #ffffff;
-      --shadow: rgba(255, 255, 255, 0.1);
-      --box-bg: #2d2d2d;
-    }
 
   .prescricao-content {
     background-color: #2d2d2d !important; /* Darker background for dark theme */
     border-color: #555 !important; /* Adjusted border color for dark theme */
     color: #ffffff !important; /* White text for dark theme */
-  }
   }
   
   body {
