@@ -26,7 +26,7 @@ h2 {
 
 .admin-btn {
   padding: 12px 20px;
-  background-color: lch(17.53% 0 296.81);
+  background-color: #2e2e2e;
   color: white;
   border: none;
   border-radius: 8px;
@@ -36,7 +36,7 @@ h2 {
 }
 
 .admin-btn:hover {
-  background-color: hsl(0, 0%, 82%);
+  background-color: #2e2e2e;
 }
 
 .prescriptions-list {
@@ -62,7 +62,7 @@ h2 {
 }
 
 .prescription-item:hover {
-  background-color: #f1f1f1;
+  background-color: #696969;
 }
 
 .prescription-info {
@@ -287,12 +287,12 @@ h2 {
     align-items: stretch;
     gap: 10px; /* Adjusted gap */
   }
-  
+
   .admin-search {
     width: 100%;
     min-width: unset; /* Remove min-width */
   }
-  
+
   .admin-btn {
     padding: 10px 16px; /* Adjusted padding */
     font-size: 14px; /* Adjusted font size */
@@ -303,13 +303,13 @@ h2 {
     padding: 20px;
     margin: 10% auto;
   }
-  
+
   .prescription-item {
     flex-direction: column;
     align-items: flex-start;
     padding: 12px 15px; /* Adjusted padding */
   }
-  
+
   .prescription-name {
     font-size: 16px; /* Adjusted font size */
   }
