@@ -38,29 +38,29 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
     });
-    
+
     const areasMedicas = [
         "Alergologia",
         "Cardiologia",
         "Dermatologia",
         "Emergência",
-        "Endocrinologia",
         "Gastroenterologia",
-        "Geriatria",
-        "Ginecologia",
+        "Hematologia",
         "Infectologia",
-        "Nefrologia",
+        "Medicamentos",
         "Neurologia",
+        "Nefrologia",
         "Oftalmologia",
         "Ortopedia",
         "Otorrinolaringologia",
         "Pediatria",
-        "Pneumologia",
         "Psiquiatria",
-        "Reumatologia / Ortopedia",
-        "Urologia / Nefrologia"
+        "Pneumologia",
+        "Reumatologia",
+        "Urologia",
+        "Ginecologia e Obstetrícia",
       ];
-      
+
       const selectArea = document.getElementById("prescriptionArea");
       areasMedicas.forEach(area => {
         const option = document.createElement("option");
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         option.textContent = area;
         selectArea.appendChild(option);
       });
-      
+
 });
 
 
@@ -153,7 +153,7 @@ function filtrarPrescricoes() {
 
 // Modal Adição
 function abrirModalAdicao() {
-    document.getElementById('modalTitle').textContent = 'Adicionar Prescrição';
+    document.getElementById('modalTitle').textContent = 'Adicionar Modelo';
     prescriptionForm.reset();
     prescriptionForm.dataset.mode = 'add';
     prescriptionModal.style.display = 'block';
