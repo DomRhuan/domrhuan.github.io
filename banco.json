@@ -1,69 +1,1556 @@
 {
-  "puerperio_parto_vaginal_evolucao": {
-    "area": "Obstetrícia",
-    "prescricao": "EVOLUÇÃO DIÁRIA MATERNIDADE\n\n# HISTÓRIA DA DOENÇA ATUAL\nPUÉRPERA PÓS-PARTO VAGINAL, IG, OCORRIDO EM XX ÀS XXH, SEM INTERCORRÊNCIAS.\n\n# HISTÓRIA PESSOAL PREGRESSA\nG0 P0 A0 // IG: // TS: // SOROLOGIAS // TOXOPLASMOSE\n\nNEGA ALERGIAS E COMORBIDADES\nNEGA USO DE ÁLCOOL, TABAGISMO E DROGAS DURANTE A GESTAÇÃO\nNEGA TRANSFUSÃO SANGUÍNEA\nCIRURGIAS PRÉVIAS:\nTATUAGENS:\nESCOLARIDADE:\nPROFISSÃO:\nESTADO CIVIL:\nPARCEIRO:\n\n# EVOLUÇÃO\nPACIENTE AVALIADA EM LEITO DE ENFERMARIA, SEM QUEIXAS. AFEBRIL. NEGA QUEIXAS ÁLGICAS, FEBRE, NÁUSEAS, VÔMITOS OU OUTROS SINTOMAS. EM DIETA VIA ORAL, COM BOA ACEITAÇÃO. DIURESE E EVACUAÇÃO PRESENTE, SEM ALTERAÇÕES. DEAMBULAÇÃO SEM DIFICULDADES.\n\n# EXAME FÍSICO\nBOM ESTADO GERAL, CORADA, HIDRATADA, ANICTÉRICA, ACIANÓTICA, AFEBRIL, EUPNEICA\nMAMAS: INDOLOR, SEM FISSURAS OU ALTERAÇÕES. EXPRESSÃO POSITIVA DO COLOSTRO. RN EM AME\nABDOME: GLOBOSO, SEM SINAIS DE IRRITAÇÃO PERITONIAL. ÚTERO CONTRAÍDO AO NÍVEL DA CICATRIZ UMBILICAL\nLÓQUIOS FISIOLÓGICOS\n\n# EXAMES COMPLEMENTARES\nLABORATORIAIS\n(): HB / HT / PLAQ / LEUC / NEUT / BAST / PCR / EAS \n\n# MÉTODO CONTRACEPTIVO DE ESCOLHA\nPROGESTÁGENO ORAL // PROGESTÁGENO INJETÁVEL // DIU // LAQUEADURA\n\n# CONDUTA\nMANTENHO INTERNAÇÃO, CUIDADOS E VIGILÂNCIAS\nPLANEJO ALTA HOSPITALAR APÓS 24H DO PARTO VAGINAL\nPRESCREVO\n\nALTA PARA PROCEDIMENTO DE LAQUEADURA \n\nALTA COM ORIENTAÇÕES\nENCAMINHO PARA INSERÇÃO DE DIU / ORIENTO PLANEJAMENTO FAMILIAR E ABSTINÊNCIA SEXUAL POR 45 DIAS PÓS-PARTO\nORIENTO SEGUIMENTO DE PUERPÉRIO NA UBS\nPRESCREVO SINTOMÁTICOS E SULFATO FERROSO\nFORNEÇO LICENÇA MATERNIDADE/PATERNIDADE",
-    "informacoes": "EVOLUÇÃO PARTO VAGINAL - PARTO VAGINAL",
+  "analgesia_padrao": {
+    "area": "Emergência",
+    "prescricao": "USO ORAL \n\n1- IBUPROFENO 300 MG ___________________ 40 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS DE 6/6H POR 05 DIAS \n\n2- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n3- PARACETAMOL 500 MG____________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR REFRATÁRIA AO DIPIRONA, PODENDO REPETIR DE 6/6H",
+    "informacoes": "ANALGESIA PADRAO - Condição médica que requer prescrição específica.",
     "sinonimos": [
-      "parto vaginal",
-      "vaginal"
+      "ANALGESIA"
+    ],
+    "flashNotes": null
+  },
+  "analgesia_musculoesqueletica": {
+    "area": "Emergência",
+    "prescricao": "USO ORAL\n\n1- MELOXICAM 15MG ___________________ 1 CAIXA\nTOMAR 01 COMPRIMIDO UMA VEZX AO DIA POR 05DIAS\n\n2- CICLOBENZABRINA 10MG _____________ 1 CAIXA\nTOMAR 01 COMPRIMIDO À NOITE POR 05 DIAS",
+    "informacoes": "ANALGESIA MUSCULOESQUELÉTICA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ANALGESIA MUSCULOESQUELÉTICA"
+    ],
+    "flashNotes": "CICLOBENZAPRINA PODE DAR SONO, POR ISSO USADA PELA NOITE"
+  },
+  "analgesia_dor_abdominal": {
+    "area": "Emergência",
+    "prescricao": "USO ORAL\n\n1- DIPIRONA 500 MG __________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS VO SE FEBRE OU DOR, PODENDO REPETIR DE 6/6H \n\n2- BUTILBROMETO DE ESCOPOLAMINA 10 MG ___ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 8/8H \n\n3- METOCLOPRAMIDA 10 MG __________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H",
+    "informacoes": "ANALGESIA DOR ABDOMINAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DOR ABDOMINAL"
+    ],
+    "flashNotes": null
+  },
+  "abstinencia_alcoolica": {
+    "area": "Psiquiatria",
+    "prescricao": "USO ORAL\n\n1- TIAMINA 300 mg __________________________ 60 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 7 DIAS, DEPOIS 01 COMPRIMIDO AO \nDIA \n\n2- DIAZEPAM 10 mg _________________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO À NOITE, ANTES DE DORMIR, POR 20 DIAS SEGUIDOS \n\n3- AMITRIPTILINA 25 mg _____________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO À NOITE, ANTES DE DORMIR",
+    "informacoes": "ABSTINÊNCIA ALCOÓLICA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "abstinência alcoólica"
+    ],
+    "flashNotes": "1- RETORNAR AO PSF APÓS 21 DIAS DE TRATAMENTO PARA REAVALIAÇÃO - \nReavaliar para ver se houve resposta (redução de 50% dos sintomas). Se não houver resposta, aumentar a  dose dos antidepressivos progressivamente\n\n2- O ANTIDEPRESSIVO PODE SER ALTERADO PARA ISRS (CITALOPRAM, FLUOXETINA)"
+  },
+  "abuso_sexual": {
+    "area": "Emergência",
+    "prescricao": "USO INSTAMUSCULAR\n\n1- PENICILINA BENZATINA 1.200.000 UI _____ 02 AMPOLAS \nAPLICAR UMA AMPOLA EM CADA GLÚTEO MÉDIO \n\n2- CEFTRIAXONA 500 MG _________________ 01 AMPOLA \nAPLICAR EM GLÚTEO MÉDIO \n\nUSO ORAL \n\n3- AZITROMICINA 500 MG _________________ 02 COMPRIMIDOS \nTOMAR OS 02 COMPRIMIDOS EM DOSE ÚNICA \n\n4- METRONIDAZOL 250 MG _______________ 08 COMPRIMIDOS  \nTOMAR 08 COMPRIMIDOS EM DOSE ÚNICA \n\n5- LEVONORGESTREL 0,75 MG __________ 02 COMPRIMIDOS \nTOMAR OS DOIS COMPRIMIDOS EM DOSE ÚNICA",
+    "informacoes": "ABUSO SEXUAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ABUSO SEXUAL",
+      "ESTUPRO",
+      "ABUSO"
+    ],
+    "flashNotes": "TRATAMENTO PARA NÃO GESTANTES"
+  },
+  "aftas_orais": {
+    "area": "Dermatologia",
+    "prescricao": "USO TÓPICO \n\n1- TRIANCINOLONA ACETONIDA TÓPICA ________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A LESÃO, SEM ESFREGAR, TRÊS VEZES \nAO DIA POR 07 DIAS",
+    "informacoes": "AFTAS ORAIS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "AFTAS ORAIS"
+    ],
+    "flashNotes": null
+  },
+  "alergia_leve": {
+    "area": "Alergologia",
+    "prescricao": "USO ORAL\n\n1- LORATADINA 25 MG ___________________01 CAIXA \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 05 DIAS \nAPÓS ESTE PERÍODO, TOMAR 01 COMPRIMIDO SE COCEIRA OU ESPIRROS, \nPODENDO REPETIR A DOSE 24/24H SE NECESSÁRIO",
+    "informacoes": "ALERGIA LEVE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ALERGIA LEVE"
+    ],
+    "flashNotes": null
+  },
+  "alergia_grave": {
+    "area": "Alergologia",
+    "prescricao": "USO ORAL\n\n1- LORATADINA 25 MG ___________________01 CAIXA \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 05 DIAS \nAPÓSESTE PERÍODO, TOMAR 01 COMPRIMIDO SE COCEIRA OU ESPIRROS, \nPODENDO REPETIR A DOSE 24/24H SE NECESSÁRIO \n\n2- PREDNISONA 20mg ______________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO ÀS 08:00 DA MANHÃ POR 05 DIAS",
+    "informacoes": "ALERGIA GRAVE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ALERGIA GRAVE"
+    ],
+    "flashNotes": null
+  },
+  "alergia_espirros": {
+    "area": "Alergologia",
+    "prescricao": "USO ORAL\n\n1- LORATADINA 25 MG ___________________01 CAIXA \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 05 DIAS \n\n2- FEXOFENADINA 60mg + PSEUDOEFEDRINA 120mg ____________ 01 CAIXA  \nTOMAR 01 COMPRIMIDO SE ESPIRROS OU CORIZA, PODENDO REPETIR DE \n12/12H\n\nUSO NASAL\n\n3 - BECLOMETASONA SPRAY NASAL 50 MCG/DOSE _________ 1 FRASCO\nUSAR 2 JATOS EM CADA NARINA 1 VEZ AO DIA (PELA MANHÃ), DURANTE 5 DIAS.",
+    "informacoes": "ALERGIA ESPIRROS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ALERGIA ESPIRROS"
+    ],
+    "flashNotes": null
+  },
+  "anticoncepcao_de_emergencia": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL\n \n1- LEVONORGESTREL 0,75 MG _____________ 02 COMPRIMIDOS \nTOMAR OS DOIS COMPRIMIDOS EM DOSE ÚNICA \n\n2- DIMENIDRINATO 50 MG + PIRIDOXINA 10MG __ 01 CAIXA  \nTOMAR 01 COMPRIMIDO SE VERTIGEM, NÁUSEAS, OU VÔMITO, PODENDO \nREPETIR DE 6/6H \n\n3- BUTILBROMETO DE ESCOPOLAMINA 10 MG __ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 8/8H",
+    "informacoes": "ANTICONCEPÇÃO DE EMERGÊNCIA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ANTICONCEPÇÃO DE EMERGÊNCIA"
+    ],
+    "flashNotes": null
+  },
+  "asma_exacerbada": {
+    "area": "Pneumologia",
+    "prescricao": "USO INALATÓRIO \n\n1- Berotec / Fenoterol __________________________ 01 FRASCO\nDILUIR 10 GOTAS EM 4ML DE SF + O2 6-8L/MIN\n\n2- SALBUTAMOL SPRAY AEROSSOL 100 MCG __________________ 01 FRASCO \nINALAR 05 PUFFS NO MEIO DA RESPIRAÇÃO PROFUNDA",
+    "informacoes": "ASMA EXACERBADA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ASMA EXACERBADA"
+    ],
+    "flashNotes": null
+  },
+  "asma_step_01": {
+    "area": "Pneumologia",
+    "prescricao": "USO INALATÓRIO\n\n1-BUDESONIDA + FORMOTEROL 100/6 µG _________________________ 1 FRASCO \n1 JATO EM CADA EPISÓDIO DE SINTOMAS OU ANTES DE ESFORÇO OU EXPOSIÇÃO ALERGÊNICA )\nUSO “ANTICIPADO/CONFORME NECESSIDADE”\n\nNO MÁX. 12 JATOS/DIA",
+    "informacoes": "ASMA STEP 01 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ASMA STEP 01"
+    ],
+    "flashNotes": null
+  },
+  "asma_step_02": {
+    "area": "Pneumologia",
+    "prescricao": "USO INALATÓRIO\n\n1-BUDESONIDA + FORMOTEROL 100/6 µG ______________________ 01 FRASCO\n1 JATO EM CADA EPISÓDIO DE SINTOMAS OU ANTES DE ESFORÇO OU EXPOSIÇÃO ALERGÊNICA )\nUSO “ANTICIPADO/CONFORME NECESSIDADE”",
+    "informacoes": "ASMA STEP 02 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ASMA STEP 02"
+    ],
+    "flashNotes": null
+  },
+  "asma_step_3": {
+    "area": "Pneumologia",
+    "prescricao": "USO INALATÓRIO\n\n1-BUDESONIDA + FORMOTEROL 100/6 µG ______________________ 01 FRASCO\nINALAR 01 CÁPSULA DE 12/12 HORAS DIARIAMENTE\n\n2- SALBUTAMOL SPRAY AEROSSOL 100 mcg __________________ 01 FRASCO \nINALAR 01 PUFF NO MEIO DA RESPIRAÇÃO PROFUNDA E SEGURAR A \nRESPIRAÇÃO POR 10 SEG. PODE REPETIR UMA VEZ APÓS UM MINUTO.  \nSE NECESSÁRIO, PODE REPETIR AS DUAS INALAÇÕES APÓS 6H DA ÚLTIMA \nDOSE.  \n\nNA AUSÊNCIA DE MELHORA, RETORNAR À EMERGÊNCIA IMEDIATAMENTE",
+    "informacoes": "ASMA STEP 3 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ASMA STEP 3"
+    ],
+    "flashNotes": null
+  },
+  "asma_step_04": {
+    "area": "Pneumologia",
+    "prescricao": "USO INALATÓRIO\n\n1- BUDESONIDA + FORMOTEROL 200/6mcg ____________________ 01 FRASCO \nINALAR 01 CÁPSULA DE 12/12H, DIARIAMENTE \n\n2- SALBUTAMOL SPRAY AEROSSOL 100 mcg __________________ 01 FRASCO \nINALAR 01 PUFF NO MEIO DA RESPIRAÇÃO PROFUNDA E SEGURAR A \nRESPIRAÇÃO POR 10 SEG. PODE REPETIR UMA VEZ APÓS UM MINUTO.  \nSE NECESSÁRIO, PODE REPETIR AS DUAS INALAÇÕES APÓS 6H DA ÚLTIMA \nDOSE.  \n\nNA AUSÊNCIA DE MELHORA, RETORNAR À EMERGÊNCIA IMEDIATAMENTE",
+    "informacoes": "ASMA STEP 04 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ASMA STEP 04"
+    ],
+    "flashNotes": null
+  },
+  "bursite": {
+    "area": "Reumatologia",
+    "prescricao": "USO ORAL\n\n1- DICLOFENACO 50 MG ________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 08/08H POR ATÉ 05 DIAS \n\n2- CICLOBENZAPRINA 10 MG ___________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO À NOITE POR 05 DIAS",
+    "informacoes": "BURSITE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "BURSITE",
+      "DOR NO OMBRO"
+    ],
+    "flashNotes": null
+  },
+  "bursite_grave": {
+    "area": "Reumatologia",
+    "prescricao": "USO ORAL \n\n1- ALGINAC 1.000 ____________________________ 06 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H, POR 05 DIAS SEGUIDOS \n\n2- CICLOBENZAPRINA 10 MG ___________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO À NOITE",
+    "informacoes": "BURSITE GRAVE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "BURSITE GRAVE"
+    ],
+    "flashNotes": null
+  },
+  "cefaleia": {
+    "area": "Neurologia",
+    "prescricao": "USO ORAL\n\n1- DIPIRONA 500 MG __________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS VO SE DOR DE 6/6 HORAS\n\n2- NAPROXENO SÓDICO 500 MG ___________ 10 COMPRIMIDOS \nTOMAR UM COMPRIMIDO DE 12/12 HORAS POR ATÉ 5 DIAS SEGUIDOS\n\n3- METOCLOPRAMIDA 10 MG _________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO DE 8/8 HORAS SE NÁUSEAS OU VÔMITOS",
+    "informacoes": "CEFALEIA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CEFALEIA",
+      "DOR DE CABEÇA",
+      "ENXAQUECA"
+    ],
+    "flashNotes": null
+  },
+  "ceratite_fotoeletrica": {
+    "area": "Oftalmologia",
+    "prescricao": "USO OFTALMOLÓGICO\n\n1- REGENCEL POMADA OFTÁLMICA______________ 01 BISNAGA \nAPLICAR 01cm DA POMADA DENTRO DA PÁLPEBRA INFERIOR, 02 VEZES AO \nDIA \n\n2- OPTOCARE _________________________________ 01 FRASCO \nAPLICAR UMA OU DUAS GOTAS NO OLHO AFETADO 06 VEZES AO DIA",
+    "informacoes": "CERATITE FOTOELÉTRICA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "LESÃO OCULAR",
+      "SOLDA"
+    ],
+    "flashNotes": null
+  },
+  "arbovirose_padrao": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- PARACETAMOL 750 MG ______________________ 01 CAIXA \nTOMAR 01 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H. \nINTERCALAR COM DIPIRONA, SE NECESSÁRIO.\n \n2- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n3- LORATADINA 10MG _______________________ 01 CAIXA\nTOMAR 01 COMPRIMIDO UMA VEZ AO DIA SE COCEIRA\n\n# TOMAR 01 COPO D’ÁGUA 10 VEZES AO DIA OU MAIS, CONFORME \nACEITAÇÃO",
+    "informacoes": "ARBOVIROSE PADRÃO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ARBOVIROSE",
+      "DENGUE",
+      "CHIKUNGUNYA",
+      "ZIKA"
+    ],
+    "flashNotes": null
+  },
+  "colica_renal": {
+    "area": "Nefrologia",
+    "prescricao": "USO ORAL\n\n1- CETOPROFENO 150 MG ______________________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 12/12H POR ATÉ 05 \nDIAS SEGUIDO \n\n2- METOCLOPRAMIDA 10 MG _________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H \n\n# BEBER BASTANTE ÁGUA E DIMINUIR A INGESTA DE SÓDIO E PROTEÍNAS \n(EX: EVITAR CARNES, SAL E REFRIGERANTES)",
+    "informacoes": "CÓLICA RENAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "cólica renal"
+    ],
+    "flashNotes": null
+  },
+  "colica_renal_grave": {
+    "area": "Nefrologia",
+    "prescricao": "USO ORAL\n\n1- ALGICOD _______________________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO JUNTO COM DICLOFENACO SE DOR INTENSA, \nPODENDO REPETIR DE 8/8H SE NECESSÁRIO. TOMAR O MÍNIMO POSSÍVEL, \nPARA EVITAR DEPENDÊNCIA E CONSTIPAÇÃO \n\n2- DICLOFENACO 50 MG ______________________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO JUNTO COM ALGICOD SE DOR INTENSA, PODENDO \nREPETIR DE 8/8H, POR ATÉ 05 DIAS SEGUIDOS \n\n3- METOCLOPRAMIDA 10 MG _________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H \n\n# BEBER BASTANTE ÁGUA E DIMINUIR A IGESTA DE SÓDIO E PROTEÍNAS (EX: \nEVITAR CARNES, SAL E REFRIGERANTES)",
+    "informacoes": "CÓLICA RENAL GRAVE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CÓLICA RENAL GRAVE"
+    ],
+    "flashNotes": null
+  },
+  "nefrolitiase_expulsiva": {
+    "area": "Nefrologia",
+    "prescricao": "USO ORAL\n\n1- TANSULOSONA 0,4 MG ______________________________ 28 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO APÓS O CAFÉ DA MANHÃ, POR 04 SEMANAS",
+    "informacoes": "NEFROLITÍASE EXPULSIVA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PEDRA NOS RINS",
+      "RINS",
+      "PEDRA"
+    ],
+    "flashNotes": "Se cálculo entre 0,5 e 1,0 cm:"
+  },
+  "conjuntivite": {
+    "area": "Oftalmologia",
+    "prescricao": "USO OFTÁLMICO\n\n1- TOBRAMICINA 3mg/mL COLÍRIO ________________ 01 FRASCO \nPINGAR 1 GOTA EM CADA OLHO, DE 6/6H POR 07 DIAS \n\n2- SOLUÇÃO FISIOLÓGICA 0,9% __________________ 01 FRASCO \nLAVAR OS OLHOS AFETADOS COM SORO GELADO QUATRO VEZES AO DIA. \nGUARDAR O SORO NA GELADEIRA.\n\n# EVITAR COÇAR OS OLHOS \n# LAVAR AS MÃOS COM FREQUÊNCIA \n# NÃO COMPARTILHAR TOALHAS E OBJETOS PESSOAIS",
+    "informacoes": "CONJUNTIVITE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "conjuntivite"
+    ],
+    "flashNotes": null
+  },
+  "constipacao": {
+    "area": "Gastroenterologia",
+    "prescricao": "USO ORAL\n\n1 - PSYLLIUM _____________________ 01 CAIXA\nTOMAR PELA BOA UM SACHE DE 1 A 3 VEZES AO DIA \n\n2- SIMETICONA 40 MG __________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR (GASES), PODENDO REPETIR DE 6/6H\n\n# INGERIR BASTANTE LÍQUIDO (8 A 10 COPOS DE 200ml POR DIA), DIETA RICA EM FIBRAS (FRUTAS, VERDURAS CRUAS, ALIMENTOS INTEGRAIS...), EXERCÍCIO FÍSICO E PROCURAR EVACUAR DIARIAMENTE SEMPRE NO MESMO HORÁRIO",
+    "informacoes": "CONSTIPAÇÃO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CONSTIPAÇÃO"
+    ],
+    "flashNotes": null
+  },
+  "dengue": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n2- METOCLOPRAMIDA 10 MG _________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H \n\n3- SORO DE REIDRATAÇÃO ORAL _____________ 01 CAIXA \nDILUIR 01 SACHÊ EM 1 LITRO DE ÁGUA FILTRADA OU FERVIDA E GUARDAR NA \nGELADEIRA. TOMAR 01 COPO AO MENOS 10 VEZES POR DIA, OU MAIS, \nCONFORME ACEITAÇÃO \n\n# BEBER 1,0 LITRO DE SORO CASEIRO (01 COLHER DE CHÁ DE SAL + 02 \nCOLHERES DE SOPA DE ACÚCAR + 01 LITRO DE ÁGUA POTÁVEL) POR DIA, E \n2,0 LITROS DE DEMAIS LIQUIDOS (ÁGUA, SUCOS, CHÁS...) \n\n# NÃO TOMAR ASPIRINA, IBUPROFENO, DICLOFENACO OU QUALQUER OUTRA \nMEDICAÇÃO SEM ORIENTAÇÃO MÉDICA. \n\n# RETORNAR IMEDIATAMENTE EM CASO DE DOR DE BARRIGA INTENSA E SEM \nMELHORA, VÔMITOS PERSISTENTES, SANGRAMENTOS IMPORTANTES, \nAUSÊNCIA DE URINA POR UM DIA APESAR DA HIDRATAÇÃO, SONOLÊNCIA \nINTENSA OU IRRITABILIDADE, VONTADE DE DESMAIAR, DESMAIO, MAL ESTAR \nIMPORTANTE OU MESMO DÚVIDAS.",
+    "informacoes": "DENGUE GRUPO A - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DENGUE GRUPO A"
+    ],
+    "flashNotes": null
+  },
+  "dengue_grupo_b": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n2- METOCLOPRAMIDA 10 MG _________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H \n\n3- SORO DE REIDRATAÇÃO ORAL _____________ 01 CAIXA \nDILUIR 01 SACHÊ EM 1 LITRO DE ÁGUA FILTRADA OU FERVIDA E GUARDAR NA \nGELADEIRA. TOMAR 01 COPO AO MENOS 10 VEZES POR DIA, OU MAIS, \nCONFORME ACEITAÇÃO \n\n# BEBER 1,0 LITRO DE SORO CASEIRO (01 COLHER DE CHÁ DE SAL + 02 \nCOLHERES DE SOPA DE ACÚCAR + 01 LITRO DE ÁGUA POTÁVEL) POR DIA, E \n2,0 LITROS DE DEMAIS LIQUIDOS (ÁGUA, SUCOS, CHÁS...) \n\n# NÃO TOMAR ASPIRINA, IBUPROFENO, DICLOFENACO OU QUALQUER OUTRA \nMEDICAÇÃO SEM ORIENTAÇÃO MÉDICA. \n\n# RETORNAR IMEDIATAMENTE EM CASO DE DOR DE BARRIGA INTENSA E SEM \nMELHORA, VÔMITOS PERSISTENTES, SANGRAMENTOS IMPORTANTES, \nAUSÊNCIA DE URINA POR UM DIA APESAR DA HIDRATAÇÃO, SONOLÊNCIA \nINTENSA OU IRRITABILIDADE, VONTADE DE DESMAIAR, DESMAIO, MAL ESTAR \nIMPORTANTE OU MESMO DÚVIDAS.\n\n# RETORNAR APÓS 48H PARA REPETIR OS EXAMES LABORATORIAIS",
+    "informacoes": "DENGUE GRUPO B - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DENGUE GRUPO B"
+    ],
+    "flashNotes": null
+  },
+  "diarreia_aguda_leve": {
+    "area": "Gastroenterologia",
+    "prescricao": "1- SACCHAROMYCES BOULARDII 200 MG ___ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00 \n\n2- BUTILBROMETO DE ESCOPOLAMINA 10 MG ___ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 8/8H \n\n3- METOCLOPRAMIDA 10 MG _________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H \n\n4- SORO DE REIDRATAÇÃO ORAL _____________ 01 CAIXA \nDILUIR 01 SACHÊ EM 1 LITRO DE ÁGUA FILTRADA OU FERVIDA E GUARDAR NA \nGELADEIRA. TOMAR 01 COPO APÓS CADA EVACUAÇÃO DIARREICA",
+    "informacoes": "Diarreia Aguda Leve - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "diarreia",
+      "diarreia aguda"
+    ],
+    "flashNotes": null
+  },
+  "diarreia_bacteriana": {
+    "area": "Gastroenterologia",
+    "prescricao": "1- CIPROFLOXACINO 500 MG ________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00 \n\n2- SACCHAROMYCES BOULARDII 200 MG ____ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00 \n\n3- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n4- BUTILBROMETO DE ESCOPOLAMINA 10 MG ___ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 8/8H \n\n5- METOCLOPRAMIDA 10 MG _________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H \n\n6- SORO DE REIDRATAÇÃO ORAL _____________ 01 CAIXA \nDILUIR 01 SACHÊ EM 1 LITRO DE ÁGUA FILTRADA OU FERVIDA E GUARDAR NA \nGELADEIRA. TOMAR 01 COPO APÓS CADA EVACUAÇÃO DIARREICA",
+    "informacoes": "Diarreia Bacteriana - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "diarreia bacteriana"
+    ],
+    "flashNotes": null
+  },
+  "hemorroida_trombosada": {
+    "area": "Gastroenterologia",
+    "prescricao": "1- DICLOFENACO 50 MG _______________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H POR 05 DIAS \nHORÁRIO SUGERIDO (8/8h): 06:00 / 14:00 / 22:00 \n \n2- DIOSMINA 450 MG + HESPERIDINA 50 MG _____ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 07 DIAS  \nHORÁRIO SUGERIDO: 08:00 / 20:00 \n \n3- BENEFIBER _______________________________ 01 CAIXA \nDISSOLVER O CONTEÚDO DE UM ENVELOPE EM UM COPO DE ÁGUA E TOMAR \nÀS REFEIÇÕES 02 VEZES AO DIA POR 03 DIAS  \n\nUSO TÓPICO\n\n4- PROCTYL _________________________________ 01 BISNAGA \nAPLICAR NO LOCAL DE 03 A 04 VEZES AO DIA EM PEQUENA QUANTIDADE ATÉ \nMELHORA \n\n# NÃO USAR PAPEL HIGIÊNICO. APÓS EVACUAÇÃO, LAVAR OU USAR LENÇOS \nUMEDECIDOS \n# FAZER BANHO DE ASSENTO (sentar numa banheira ou bacia com água MORNA) \nVÁRIAS VEZES AO DIA - TESTE A ÁGUA PARA EVITAR QUEIMADURAS \n# INGERIR BASTANTE LÍQUIDO (8 A 10 COPOS DE 200ml POR DIA), DIETA RICA \nEM FIBRAS (FRUTAS, VERDURAS CRUAS, ALIMENTOS INTEGRAIS...), \nEXERCÍCIO FÍSICO E PROCURAR EVACUAR DIARIAMENTE SEMPRE NO MESMO \nHORÁRIO",
+    "informacoes": "Hemorroida Trombosada - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "hemorroida trombosada"
+    ],
+    "flashNotes": null
+  },
+  "dismenorreia": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- ÁCIDO MEFENÂMICO 500MG _____ 1 CX\nTOMAR 01 CP DE 8/8H ASSIM QUE INICIAR AS DORES\n\n2- BUTILBROMETO DE ESCOPOLAMINA 10 MG ____________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 8/8H \n\n3- METOCLOPRAMIDA 10 MG ___________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H",
+    "informacoes": "Dismenorreia - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "Dismenorreia"
+    ],
+    "flashNotes": null
+  },
+  "dpoc_exacerbado": {
+    "area": "Pneumologia",
+    "prescricao": "USO ORAL\n\n1 - AMOXICILINA + CLAVULANATO (500MG + 125MG) ___________ 21CP\nTOMAR 01 CP DE 8/8HORAS POR 7 DIAS\n\n2- PREDNISONA 20 MG _________________________________ 05 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE MANHÃ POR 05 DIAS SEGUIDOS\n\n3- OMEPRAZOL 20 MG _________________________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, EM JEJUM, POR 10 DIAS\n\nUSO INALATÓRIO\n\n1- SALBUTAMOL SPRAY AEROSSOL 100 MCG __________________ 01 FRASCO \nINALAR 01 PUFF NO MEIO DA RESPIRAÇÃO PROFUNDA E SEGURAR A \nRESPIRAÇÃO POR 10 SEG. PODE REPETIR UMA VEZ APÓS UM MINUTO.  \nSE NECESSÁRIO, PODE REPETIR AS DUAS INALAÇÕES APÓS 6H DA ÚLTIMA \nDOSE.  \n\nNA AUSÊNCIA DE MELHORA, RETORNAR À EMERGÊNCIA IMEDIATAMENTE",
+    "informacoes": "DPOC Exacerbado - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DPOC",
+      "Exacerbação"
+    ],
+    "flashNotes": null
+  },
+  "eczema_de_contato": {
+    "area": "Dermatologia",
+    "prescricao": "USO TÓPICO \n \n1- BETAMETASONA 0,1%  ____________________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A ÁREA AFETADA DUAS VEZES AO DIA \n \nUSO ORAL \n \n2- LORATADINA 25 MG ___________________01 CAIXA \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 05 DIAS \nAPÓS ESTE PERÍODO, TOMAR 01 COMPRIMIDO SE COCEIRA, PODENDO \nREPETIR A DOSE 24/24H SE NECESSÁRIO",
+    "informacoes": "Eczema de Contato - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "Eczema de contato",
+      "alergia"
+    ],
+    "flashNotes": null
+  },
+  "eczema_de_contato_grave": {
+    "area": "Dermatologia",
+    "prescricao": "USO TÓPICO \n \n1- CLOBETAZOL CREME 0,5 mg/g ____________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A ÁREA AFETADA DUAS VEZES AO DIA \n \nUSO ORAL \n \n2- LORATADINA 25 MG ___________________01 CAIXA \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 05 DIAS \nAPÓSESTE PERÍODO, TOMAR 01 COMPRIMIDO SE COCEIRA, PODENDO \nREPETIR A DOSE 24/24H SE NECESSÁRIO",
+    "informacoes": "Eczema de Contato Grave - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "Eczema de Contato Grave"
+    ],
+    "flashNotes": null
+  },
+  "enxaqueca_leve_a_moderada": {
+    "area": "Neurologia",
+    "prescricao": "USO ORAL\n\n1- NAPROXENO SÓDICO 500 MG ___________ 10 COMPRIMIDOS \nTOMAR UM COMPRIMIDO SE DOR, PODENDO REPETIR DE 12/12H POR ATÉ 05 \nDIAS SEGUIDOS \n \n2- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n \n3- METOCLOPRAMIDA 10 MG _________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H",
+    "informacoes": "Enxaqueca (leve a moderada) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ENXAQUECA"
+    ],
+    "flashNotes": null
+  },
+  "enxaqueca_moderada_a_severa": {
+    "area": "Neurologia",
+    "prescricao": "USO ORAL\n\n1- NARATRIPANO 2,5 MG ____________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO AO PRIMEIRO SINAL DE ENXAQUECA. SE NÃO \nHOUVER MELHORA, PODE REPETIR 01 COMPRIMIDO APÓS 6H HORAS.  \n\n2- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n3- METOCLOPRAMIDA 10 MG _________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H",
+    "informacoes": "Enxaqueca (moderada a severa) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ENXAQUECA"
+    ],
+    "flashNotes": null
+  },
+  "celulite": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- CEFALEXINA 500MG _____________________ 28 COMPRIMIDOS  \nTOMAR 01 COMPRIMIDO DE 6/6H POR  07 DIAS \nHORÁRIO SUGERIDO: 06:00 / 12:00 / 18:00 / 00:00",
+    "informacoes": "CELULITE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CELULITE"
+    ],
+    "flashNotes": null
+  },
+  "erisipela": {
+    "area": "Infectologia",
+    "prescricao": "1- CEFALEXINA 500MG _____________________ 56 COMPRIMIDOS\nTOMAR 01 COMPRIMIDO DE 6/6H POR  14 DIAS \nHORÁRIO SUGERIDO: 06:00 / 12:00 / 18:00 / 00:00 \n\n# MANTER O MEMBRO ELEVADO NA MAIOR PARTE DO TEMPO E APLICAR \nCOMPRESSAS MORNAS",
+    "informacoes": "ERISIPELA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ERISIPELA"
+    ],
+    "flashNotes": null
+  },
+  "escabiose": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL \n\n1- IVERMECTINA 6 MG ___________________ 04 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS EM DOSE ÚNICA E REPETIR APÓS 21 DIAS \n\n2- HIDROXIZINA 25 MG ___________________01 CAIXA \nTOMAR 01 COMPRIMIDO DE 8/8 HORAS\n \n# TROCAR ROUPAS DE CAMA DIARIAMENTE DURANTE OS 3 PRIMEIROS DIAS \nDE TRATAMENTO",
+    "informacoes": "ESCABIOSE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ESCABIOSE"
+    ],
+    "flashNotes": null
+  },
+  "faringoamigdalite_inespecifica": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- DIPIRONA 500MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE FEBRE OU DOR, PODENDO REPETIR DE 06/06H \n\n2- NIMESULIDA 100MG ____________________ 01 CAIXA\nTOMAR 01 COMPRIMIDO DE 12/12HORAS POR 05 DIAS\n\n3- BENALET ____________________________ 01 CAIXA  \nDISSOLVER LENTAMENTE UMA PASTILHA NA BOCA, PODENDO REPETIR DE \n2/2H CONFORME NECESSIDADE",
+    "informacoes": "FARINGOAMIGDALITE INESPECÍFICA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "FARINGOAMIGDALITE"
+    ],
+    "flashNotes": null
+  },
+  "faringoamigdalite_bacteriana": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL \n\n1- AMOXICILINA 500MG ____________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 08/08H POR 10 DIAS \nHORÁRIO SUGERIDO: 06:00 / 14:00 / 22:00 \n\n2- DIPIRONA 500MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE FEBRE OU DOR, PODENDO REPETIR DE 06/06H\n\n3- NIMESULIDA 100MG ____________________ 01 CAIXA\nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS \n\n3- OMEPRAZOL 20 MG ________________________________ 128 COMPRIMIDOS \nTOMAR 01 COMPRIMIDOS PELA MANHÃ EM JEJUM, 30 MINUTOS ANTES DO \nCAFÉ-DA-MANHÃ, POR 10 DIAS",
+    "informacoes": "FARINGOAMIGDALITE BACTERIANA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "FARINGOAMIGDALITE"
+    ],
+    "flashNotes": null
+  },
+  "gastrite": {
+    "area": "Gastroenterologia",
+    "prescricao": "USO ORAL\n\n1- OMEPRAZOL 20 MG ________________________________ 128 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS PELA MANHÃ EM JEJUM, 30 MINUTOS ANTES DO \nCAFÉ-DA-MANHÃ, POR 08 SEMANAS \n\n2- DOMPERIDONA 10 MG ______________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO 30 MINUTOS ANTES DO ALMOÇO \n\n3- SIMETICONA 40 MG ________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR (GASES), PODENDO REPETIR DE 6/6H \n\n# ELEVAR A CABECEIRA DA CAMA (15cm): USAR UM APOIO SOB OS PÉS DA \nCAMA OU TRAVESSEIROS",
+    "informacoes": "GASTRITE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "GASTRITE"
+    ],
+    "flashNotes": null
+  },
+  "refluxo_drge": {
+    "area": "Gastroenterologia",
+    "prescricao": "USO ORAL\n\n1- OMEPRAZOL 20 MG ________________________________ 128 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS PELA MANHÃ EM JEJUM, 30 MINUTOS ANTES DO \nCAFÉ-DA-MANHÃ, POR 08 SEMANAS \n\n2- DOMPERIDONA 10 MG ______________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO 30 MINUTOS ANTES DO ALMOÇO \n\n3- SIMETICONA 40 MG ________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR (GASES), PODENDO REPETIR DE 6/6H \n\n# ELEVAR A CABECEIRA DA CAMA (15cm): USAR UM APOIO SOB OS PÉS DA \nCAMA OU TRAVESSEIROS\n# EVITAR DEITAR-SE NAS DUAS HORAS APÓS AS REFEIÇÕES",
+    "informacoes": "REFLUXO (DRGE) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "REFLUXO",
+      "DRGE"
+    ],
+    "flashNotes": null
+  },
+  "gota_crise": {
+    "area": "Reumatologia",
+    "prescricao": "USO ORAL\n\n1- NAPROXENO SÓDICO 250 MG ___________ 30 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS DE 12/12H POR 3 DIAS  \nDEPOIS 01 COMPRIMIDO DE 8/8H POR MAIS 5 DIAS \n\n2- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n3- OMEPRAZOL 20 MG ____________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, EM JEJUM, POR 10 DIAS",
+    "informacoes": "GOTA (CRISE) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "GOTA",
+      "ARTRITE GOTOSA"
+    ],
+    "flashNotes": null
+  },
+  "hordeolo": {
+    "area": "Oftalmologia",
+    "prescricao": "USO OFTALMOLÓGICO\n\n1 - TOBRAMICINA + DEXAMETASONA (3MG/G + 1MG/G) POMADA_______ 1 TUBO\nAPLICAR A POMADA NA REGIÃO AFETADA 4X POR DIA ATÉ RESOLUÇÃO DO QUADRO. APÓS ISSO APLIXAR 1X AO DIA POR 01 SEMANA\n\n#APLICAR COMPRESSAS DE ÁGUA MORNA TRÊS VEZES AO DIA",
+    "informacoes": "HORDEOLO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "HORDÉOLO"
+    ],
+    "flashNotes": null
+  },
+  "herpes_zoster": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- ACICLOVIR 400 MG ________________________________ 70 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS DE 4/4H, EXCETUANDO-SE UMA DOSE NOTURNA, \nPOR 07 DIAS SEGUIDOS \nHORÁRIO SUGERIDO: 06:00 – 10:00 – 14:00 – 18:00 – 22:00\n\n2- DICLOFENACO 50 MG ______________________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H POR 05 DIAS SEGUIDOS \nHORÁRIO SUGERIDO: 06:00 – 14:00 – 22:00 \n\n3- DIPIRONA 500MG ______________________________ 01 CAIXA\nTOMAR 02 COMPRIMIDOS DE 6/6H SE DOR \n\n4- TRAMADOL 50MG _____________________________ 01 CAIXA\nTOMAR 01CP DE 6/6H SE DOR REFRATÁRIA AO USO DE DIPIRONA",
+    "informacoes": "HERPES ZOSTER - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "HERPES ZOSTER"
+    ],
+    "flashNotes": null
+  },
+  "impetigo_crostoso": {
+    "area": "Dermatologia",
+    "prescricao": "USO TÓPICO\n\n1- MUPIROCINA POMADA 2% ____________________________ 01 BISNAGA \nAPLICAR NAS LESÕES TRÊS VEZES AO DIA, ATÉ MELHORA \n \n# LAVAR COM ÁGUA MORNA E SABÃO DUAS A TRÊS VEZES AO DIA \n# TENTAR REMOVER AS CROSTAS ANTES DE APLICAR A POMADA – SE \nHOUVER DIFICULDADE, PODE-SE AMOLECÊ-LAS APLICANDO PRIMEIRO ÓLEO \nOU VASELINA LIGEIRAMENTE AQUECIDA",
+    "informacoes": "IMPETIGO CROSTOSO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "IMPETIGO CROSTOSO"
+    ],
+    "flashNotes": null
+  },
+  "itu_cistite_nao_complicada": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL \n\n1- NITROFURANTOÍNA 100MG _______________________ 28CP\nTOMAR 01 COMPRIMIDO DE 6/6 HORAS POR 07 DIAS\n\nOU \n\n1- FOSFOMICINA 3G _________________________ 1 ENVELOPE\nDISSOLVER UM ENVELOPE EM 1/2 COPO DE ÁGUA E TOMAR À NOITE, ANTES DE DORMIR, DOSE ÚNICA\n\nOU \n\n1- BACTRIM (800/160MG) ______________________ 6CP\nTOMAR 01 CP DE 12/12H POR 03 DIAS\n\nOU \n\n1 AMOXICILINA + CLAVULANATO (500/125MG) __________ 14CP\nTOMAR 01 CP DE 12/12H POR 07 DIAS",
+    "informacoes": "ITU (CISTITE) NÃO COMPLICADA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ITU",
+      "INFECÇÃO URINÁRIA",
+      "CISTITE"
+    ],
+    "flashNotes": null
+  },
+  "candidiase_intertriginosa": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- FLUCONAZOL 150mg _____________________________ 04 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO A CADA 07 DIAS ATE O TOTAL DE 04 DOSES                               \n \nUSO TÓPICO \n \n2- TROK-N _________________________________________ 01 BISNAGA \nAPLICAR NAS LESÕES DUAS VEZES AO DIA ATÉ MELHORA \n \n# LAVAR A REGIÃO AFETADA COM ÁGUA E SABÃO E SECAR BEM EM SEGUIDA \n \n# EVITAR AO MÁXIMO O USO DE CALÇADOS FECHADOS",
+    "informacoes": "CANDIDÍASE INTERTRIGINOSA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CANDIDÍASE INTERTRIGINOSA"
+    ],
+    "flashNotes": null
+  },
+  "lombalgia_mecanica": {
+    "area": "Ortopedia",
+    "prescricao": "USO ORAL \n\n1- DICLOFENACO 50 MG ______________________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H, POR 05 DIAS SEGUIDOS \nHORÁRIO SUGERIDO (8/8h): 06:00 / 14:00 / 22:00 \n\n2- PARACETAMOL 350mg + CARISOPRODOL 150mg + CAFEÍNA50mg____ 01 CAIXA\nTOMAR 2 COMPRIMIDOS SE DOR, PODENDO REPETIR DE 6/6H SE NECESSÁRIO \n\n# APLICAR COMPRESSAS DE ÁGUA MORNA TRÊS VEZES AO DIA \n# SE POSSÍVEL, REALIZAR FISIOTERAPIA COM FORTALECIMENTO DA \nMUSCULATURA ABDOMINAL E PARAVERTEBRAL",
+    "informacoes": "LOMBALGIA MECÂNICA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "LOMBALGIA MECÂNICA"
+    ],
+    "flashNotes": null
+  },
+  "lombalgia_mecanica_alternativo": {
+    "area": "Ortopedia",
+    "prescricao": "USO ORAL \n\n1- MELOXICAM 15MG____________________________________ 01 CAIXA\nTOMAR UM COMPRIMIDO PELA MANHÃ DURANTE 05 DIAS\n\n2- DIPIRONA 500 MG ___________________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H \n\n3- CICLOBENZAPRINA 5 MG ___________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO À NOITE ANTES DE DORMIR, POR 05 DIAS SEGUIDOS \n\n# APLICAR COMPRESSAS DE ÁGUA MORNA TRÊS VEZES AO DIA \n# SE POSSÍVEL, REALIZAR FISIOTERAPIA COM FORTALECIMENTO DA \nMUSCULATURA ABDOMINAL E PARAVERTEBRAL",
+    "informacoes": "LOMBALGIA MECÂNICA ALTERNATIVO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "LOMBALGIA MECÂNICA"
+    ],
+    "flashNotes": null
+  },
+  "meteorismo_gases": {
+    "area": "Gastroenterologia",
+    "prescricao": "USO ORAL \n\n1- SIMETICONA 40 MG _________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR (GASES), PODENDO REPETIR DE 6/6H \n\n2- METOCLOPRAMIDA 10 MG __________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H\n\n3- DIPIRONA 500 MG _________________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H",
+    "informacoes": "METEORISMO (GASES) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "GASES",
+      "METEORISMO"
+    ],
+    "flashNotes": null
+  },
+  "micose_sublingual": {
+    "area": "Infectologia",
+    "prescricao": "USO TÓPICO\n\n1- UREIA MANIPULADA EM CREME 40% _____________ 01 FRASCO \nAPLICAR UMA CAMADA SOB A UNHA À NOITE ANTES DE DORMIR, COM O \nAUXÍLIO DE UM COTONETE OU UM CHUMAÇO DE ALGODÃO, E LAVAR BEM \nPELA MANHÃ, COM ÁGUA E SABÃO \n \n2- NITRATO DE OXICONAZOL 10mg/ml _______________ 01 FRASCO  \nAPLICAR 01 CAMADA SOB A UNHA PELA MANHÃ, COM O AUXÍLIO DE \nCOTONETE OU UM CHUMAÇO DE ALGODÃO, PELA MANHÃ, APÓS LAVAR COM \nÁGUA E SABÃO DURANTE O BANHO, POR 01 A 02 SEMANAS",
+    "informacoes": "MICOSE SUBLINGUAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "MICOSE SUBLINGUAL"
+    ],
+    "flashNotes": null
+  },
+  "resfriado_comum": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- DIPIRONA 500MG _______________________________________________ 01 \nCAIXA \nTOMAR 02 COMPRIMIDOS SE FEBRE OU DOR, PODENDO REPETIR DE 06/06H \n \n2- CLORIDRATO DE AMBROXOL XAROPE 30mg/5ml ______________________ 01 \nFRASCO \nTOMAR 5 ML, 3 VEZES AO DIA \n \n                                                                 USO INTRANASAL \n \n3- SERINGA DE 10 ML ___________________________ 01 UNIDADE \n4- SOLUÇÃO FISIOLÓGICA 0,9% __________________________ 01 FRASCO \n# ASPIRAR O SORO COM A SERINGA, RETIRAR A AGULHA E INJETAR EM CADA \nNARINA (SEM TAPAR A OUTRA), ESTANDO COM A BOCA ABERTA, TRÊS VEZES \nAO DIA \n# GUARDAR O SORO NA GELADEIRA E LAVAR O MATERIAL COM ÁGUA E \nSABÃO",
+    "informacoes": "RESFRIADO COMUM - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "RESFRIADO COMUM",
+      "GRIPE",
+      "NASOFARINGITE"
+    ],
+    "flashNotes": null
+  },
+  "otite_externa": {
+    "area": "Otorrinolaringologia",
+    "prescricao": "USO TÓPICO AUDITIVO\n\n1- CIPROFLOXACINO-DEXAMETASONA SOLUÇÃO TÓPICA __________01 FRASCO \nPINGAR 04 GOTAS NO OUVIDO ACOMETIDO DE 12/12H POR 07 DIAS \n                                                                   USO ORAL \n\n2- DICLOFENACO 50 MG _______________________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H, POR 05 DIAS SEGUIDOS \nHORÁRIO SUGERIDO (8/8h): 06:00 / 14:00 / 22:00 \n \n3- DIPIRONA 500 MG ________________________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H",
+    "informacoes": "OTITE EXTERNA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "OTITE EXTERNA"
+    ],
+    "flashNotes": null
+  },
+  "otite_externa_alternativo": {
+    "area": "Otorrinolaringologia",
+    "prescricao": "USO TÓPICO AUDITIVO\n\n1- OTOSPORIN ________________________________________ 01 FRASCO \nPINGAR 04 GOTAS NO OUVIDO ACOMETIDO DE 06/06H POR 10 DIAS \nHORÁRIO SUGERIDO: 05:00 - 11:00 - 17:00 - 23:00 \n \n                                                                   USO ORAL \n \n2- DICLOFENACO 50 MG _____________________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H, POR 05 DIAS SEGUIDOS \nHORÁRIO SUGERIDO (8/8h): 06:00 / 14:00 / 22:00 \n \n3- DIPIRONA 500 MG ___________________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H",
+    "informacoes": "OTITE EXTERNA ALTERNATIVO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "OTITE EXTERNA"
+    ],
+    "flashNotes": null
+  },
+  "otite_media_aguda": {
+    "area": "Otorrinolaringologia",
+    "prescricao": "USO ORAL\n\n1- AMOXICILINA 875mg + CLAVULANATO 125mg ___ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 10 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00 \n \n2- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H",
+    "informacoes": "OTITE MÉDIA AGUDA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "OTITE MÉDIA AGUDA",
+      "OMA"
+    ],
+    "flashNotes": null
+  },
+  "paralisia_de_bell": {
+    "area": "Neurologia",
+    "prescricao": "USO ORAL\n\n1- VALACICLOVIR 500 MG ______________________________ 42 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS DE 8/8H, POR 07 DIAS SEGUIDOS \nHORÁRIO SUGERIDO: 06:00 – 14:00 – 22:00 \n \n2- PREDNISONA 20 MG ______________________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS SEGUIDOS \nHORÁRIO SUGERIDO: 08:00 – 20:00\n\nUSO TÓPICO\n\n3- LÁCRIMA PLUS ______________________________ 01 FRASCO \nPINGAR UMA GOTA NO OLHO PARALISADO, DE 30/30 MINUTOS \n \n4- REGENOM __________________________________ 01 FRASCO \nAPLICAR NO OLHO PARALISADO À NOITE, ANTES DE DORMIR, E COBRIR \nCOM CURATIVO OCLUSIVO (GAZE E ESPARADRAPO, SEM APERTAR) \n \n# PRATICAR FISIOTERAPIA FACIAL SEMPRE QUE POSSÍVEL: FAZER \nCARETAS, BIQUINHOS, ASSOPRAR, FECHAR OS OLHOS COM FORÇA, \nFALAR NORMALMENTE... – PROCURAR UM PROFISSIONAL DE \nFISIOTERAPIA OU DE FONOAUDIOLOGIA EM CASO DE DIFICULDADE",
+    "informacoes": "PARALISIA DE BELL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PARALISIA DE BELL",
+      "BELL",
+      "PARALISIA FACIAL"
+    ],
+    "flashNotes": null
+  },
+  "parasitose": {
+    "area": "Gastroenterologia",
+    "prescricao": "USO ORAL \n\n1- ALBENDAZOL 400 MG _______________________ 02 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO EM DOSE ÚNICA E DEPOIS REPTIR APÓS 10 DIAS",
+    "informacoes": "PARASITOSE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PARASITOSE",
+      "ANTIPARASITÁRIO"
+    ],
+    "flashNotes": null
+  },
+  "pielonefrite_nao_complicada_ambulatorial": {
+    "area": "Nefrologia",
+    "prescricao": "USO ORAL\n\n1- CIPROFLOXACINO 500 MG __________________________ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 07 DIAS SEGUIDOS \nHORÁRIO SUGERIDO: 08:00 / 20:00",
+    "informacoes": "PIELONEFRITE NÃO COMPLICADA (AMBULATORIAL) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PIELONEFRITE"
+    ],
+    "flashNotes": null
+  },
+  "ptiriase_versicolor": {
+    "area": "Dermatologia",
+    "prescricao": "USO ORAL\n\n1- FLUCONAZOL 150 mg ____________________________ 04 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO A CADA 07 DIAS ATÉ 04 DOSES",
+    "informacoes": "PTIRÍASE VERSICOLOR - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PTIRÍASE"
+    ],
+    "flashNotes": null
+  },
+  "pneumonia_sem_comorbidades": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL\n\n1- AMOXICILINA 500 MG _______________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8 HORAS POR 10 DIAS SEGUIDOS \n\n2- DIPIRONA 500 MG __________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 06/06 \nHORAS SE NECESSÁRIO \n\n3- OMEPRAZOL 20 MG __________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO PELA MANHÃ EM JEJUM POR 10 DIAS",
+    "informacoes": "PNEUMONIA (SEM COMORBIDADES) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PNEUMONIA"
+    ],
+    "flashNotes": null
+  },
+  "pneumonia_sem_comorbidades_opcao_02": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL \n\n1- AZITROMICINA 500 MG _______________________ 07 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 07 DIAS \nSEGUIDOS \n\n2- DIPIRONA 500 MG __________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 06/06 \nHORAS SE NECESSÁRIO \n\n3- OMEPRAZOL 20 MG __________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO PELA MANHÃ EM JEJUM POR 10 DIAS",
+    "informacoes": "PNEUMONIA (SEM COMORBIDADES) OPÇÃO 02 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PNEUMONIA"
+    ],
+    "flashNotes": null
+  },
+  "pneumonia_com_comorbidades": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL \n\n1- AMOXICILINA 875 MG + CLAVULANATO 125 MG _________ 20 COMPRIMIDOS \nTOMAR 02 COMPRIMIDO DE 12/12 HORAS POR 10 DIAS SEGUIDOS \nHORÁRIO SUGERIDO: 08:00 – 20:00  \n\n2- AZITROMICINA 500 MG _______________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 10 DIAS \nSEGUIDOS \n\n3- DIPIRONA 500 MG __________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 06/06 \nHORAS SE NECESSÁRIO \n\n4- OMEPRAZOL 20 MG __________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO PELA MANHÃ EM JEJUM POR 05 DIAS",
+    "informacoes": "PNEUMONIA (COM COMORBIDADES) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PNEUMONIA"
+    ],
+    "flashNotes": null
+  },
+  "queimadura": {
+    "area": "Emergência",
+    "prescricao": "USO TÓPICO\n\n1- SULFADIAZINA DE PRATA 10mg/g _________________________ 01 BISNAGA \nAPLICAR UMA CAMADA NA LESÃO E COBRIR COM CURATIVO COM GAZE, \nDUAS VEZES AO DIA, ATÉ MELHORA \n\nUSO ORAL\n\n2- DIPIRONA 500MG _______________________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE FEBRE OU DOR, PODENDO REPETIR DE 06/06H",
+    "informacoes": "QUEIMADURA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "QUEIMADURA"
+    ],
+    "flashNotes": null
+  },
+  "rinite_alergica": {
+    "area": "Pneumologia",
+    "prescricao": "USO INTRANASAL\n\n1- FLUTICASONA SPRAY 50mcg/jato _________ 01 FRASCO \nAPLICAR 1 JATO EM CADA NARINA DE 12/12H POR 15 DIAS. APÓS ESTE \nPERÍODO, APLICAR UM JATO EM CADA NARINA PELA MANHÃ ATÉ COMPLETAR \n90 DIAS\n\nUSO ORAL \n\n2- DEXCLORFENIRAMINA 2 mg _______________ 01 CAIXA \nTOMAR 01 COMPRIMIDO DE 08/08H POR 07 DIAS",
+    "informacoes": "RINITE ALÉRGICA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "RINITE"
+    ],
+    "flashNotes": null
+  },
+  "rinossinusite_aguda": {
+    "area": "Pneumologia",
+    "prescricao": "USO ORAL\n\n1- DIPIRONA 500MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE FEBRE OU DOR, PODENDO REPETIR DE 06/06H\n\nUSO INTRANASAL\n\n2- FLUTICASONA SPRAY 50mcg/jato _________ 01 FRASCO \nAPLICAR 1 JATO EM CADA NARINA DE 12/12H POR 15 DIAS \n  \n3- SERINGA DE 10 ML _______________________ 01 UNIDADE \n4- SOLUÇÃO FISIOLÓGICA 0,9% ______________ 01 FRASCO\n\n# ASPIRAR O SORO COM A SERINGA, RETIRAR A AGULHA E INJETAR EM CADA \nNARINA (SEM TAPAR A OUTRA), ESTANDO COM A BOCA ABERTA, TRÊS VEZES \nAO DIA \n# É NORMAL ENGOLIR OU A SECREÇÃO SAIR PELO OUTRO LADO \n# GUARDAR O SORO NA GELADEIRA E LAVAR O MATERIAL COM ÁGUA E \nSABÃO\n# RETORNAR PARA REAVALIAÇÃO EM CASO DE PIORA APÓS O QUINTO DIA \nOU SE PERSISTIR POR MAIS DE 10 DIAS. OU ANTES EM CASO DE DÚVIDA",
+    "informacoes": "RINOSSINUSITE AGUDA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "RINOSSINUSITE",
+      "RINITE"
+    ],
+    "flashNotes": null
+  },
+  "sangramento_uterino_anormal": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- ÁCIDO TRANEXÂMICO 250 MG _____________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS DE 8/8H \nHORÁRIO SUGERIDO: 06:00 / 14:00 / 22:00 \n\n2- PIROXICAM 20 MG _______________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS",
+    "informacoes": "SANGRAMENTO UTERINO ANORMAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "SANGRAMENTO UTERINO ANORMAL",
+      "SUA"
+    ],
+    "flashNotes": null
+  },
+  "anemia_ferropriva_leve": {
+    "area": "Hematologia",
+    "prescricao": "USO ORAL \n\n1- SULFATO FERROSO ____________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO UMA VEZ AO DIA, 01 HORA ANTES OU 02 HORAS \nDEPOIS DO ALMOÇO, DE PREFERÊNCIA COM SUCO DE LARANJA OU LIMÃO",
+    "informacoes": "ANEMIA FERROPRIVA LEVE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ANEMIA"
+    ],
+    "flashNotes": null
+  },
+  "pos_sutura_sem_contaminacao": {
+    "area": "Emergência",
+    "prescricao": "USO TÓPICO\n\n1- SULFATO DE NEOMICINA 3,5mg/g _________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A LESÃO APÓS CADA TROCA DE \nCURATIVO\n\n# TROCAR CURATIVO DIARIAMENTE \n \n# A PARTIR DO 2º DIA, LAVAR DELICADAMENTE DURANTE O BANHO COM \nÁGUA E SABÃO NEUTRO PELA MANHÃ E À NOITE. TROCAR CURATIVO A CADA \nLAVAGEM \n \n# RETIRAR OS PONTOS EM 10 DIAS EM POSTO DE SAÚDE MAIS PRÓXIMO DE \nSUA RESIDÊNCIA \n \n# CASO APRESENTE FEBRE, DOR PROGRESSIVA EM LOCAL DE FERIMENTO, \nSAÍDA DE SECREÇÃO FÉTIDA OU OUTROS SINTOMAS, RETORNAR PARA \nREAVALIAÇÃO \n \n# EVITAR EXPOR FERIMENTO AO SOL POR TRÊS MESES",
+    "informacoes": "PÓS SUTURA SEM CONTAMINAÇÃO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "SUTURA",
+      "CORTE",
+      "LESÃO"
+    ],
+    "flashNotes": null
+  },
+  "pos_sutura_com_contaminacao": {
+    "area": "Emergência",
+    "prescricao": "USO ORAL \n\n1- CEFALEXINA 500MG _____________________ 28 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 6/6H POR 07 DIAS \nHORÁRIO SUGERIDO: 06:00 / 12:00 / 18:00 / 00:00 \n \n2- DICLOFENACO 50 MG ___________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H POR 05 DIAS \nHORÁRIO SUGERIDO (8/8h): 06:00 / 14:00 / 22:00 \n \n3- DIPIRONA 500MG _______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE FEBRE OU DOR, PODENDO REPETIR DE 6/6H \n\nUSO TÓPICO\n\n4- CONTRACTUBEX _________________________ 01 BISNAGA \nAPÓS 10 DIAS DO TRAUMA, APLICAR UMA FINA CAMADA SOBRE A LESÃO \nDUAS VEZES AO DIA \n# TROCAR CURATIVO DIARIAMENTE \n# A PARTIR DO 2º DIA, LAVAR DELICADAMENTE DURANTE O BANHO COM \nÁGUA E SABÃO NEUTRO PELA MANHÃ E À NOITE. TROCAR CURATIVO A CADA \nLAVAGEM \n# RETIRAR OS PONTOS EM 10 DIAS EM POSTO DE SAÚDE MAIS PRÓXIMO DE \nSUA RESIDÊNCIA \n# CASO APRESENTE FEBRE, DOR PROGRESSIVA EM LOCAL DE FERIMENTO, \nSAÍDA DE SECREÇÃO FÉTIDA OU OUTROS SINTOMAS, RETORNAR PARA \nREAVALIAÇÃO \n# EVITAR EXPOR FERIMENTO AO SOL POR TRÊS MESES",
+    "informacoes": "PÓS SUTURA COM CONTAMINAÇÃO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "SUTURA",
+      "CORTE CONTAMINADO",
+      "CORTE",
+      "LESÃO"
+    ],
+    "flashNotes": null
+  },
+  "tinea_captis": {
+    "area": "Dermatologia",
+    "prescricao": "USO TÓPICO\n\n1- CETOCONAZOL SHAMPOO 2% ______________________ 01 FRASCO \nAPLICAR NO COURO CABELUDO, DEIXAR AGIR POR 10 MINUTOS ANTES DE \nENXAGUAR, 2 A 3 VEZES POR SEMANA, DURANTE 4 SEMANAS",
+    "informacoes": "TINEA CAPTIS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TINE CAPTIS",
+      "CASPA"
+    ],
+    "flashNotes": null
+  },
+  "tinea_corporis": {
+    "area": "Dermatologia",
+    "prescricao": "USO ORAL \n\n1- TERBINAFINA 250mg _______________________________ 28 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 28 DIAS \nSEGUIDOS \n\n2- CETIRIZINA 10 mg __________________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE COCEIRA OU ALERGIA, PODENDO REPETIR DE \n24/24 SE NECESSÁRIO\n\nUSO TÓPICO\n\n3- TERBINAFINA CREME 1% ____________________________ 01 BISNAGA \nAPLICAR NAS ÁREAS AFETADAS DE 12/12H ATÉ MELHORA (EM MÉDIA 28 DIAS)",
+    "informacoes": "TINEA CORPORIS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TINEA CORPORIS",
+      "DERMATOFITOSE"
+    ],
+    "flashNotes": null
+  },
+  "torcicolo_espasmodico": {
+    "area": "Ortopedia",
+    "prescricao": "USO ORAL \n\n1- CAFEÍNA 35mg + DIPIRONA 300mg + ORFENADRINA 50mg __ 01 CAIXA\nTOMAR 02 COMPRIMIDOS DE 6/6H SE DOR",
+    "informacoes": "TORCICOLO ESPASMÓDICO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TORCICOLO",
+      "DOR NO PESCOÇO"
+    ],
+    "flashNotes": null
+  },
+  "torcicolo_alternativo": {
+    "area": "Ortopedia",
+    "prescricao": "USO ORAL\n\n1- DICLOFENACO 50 MG ________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 08/08H POR ATÉ 05 DIAS \n\n2- CICLOBENZAPRINA 10 MG ___________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO À NOITE",
+    "informacoes": "TORCICOLO ALTERNATIVO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TORCICOLO"
+    ],
+    "flashNotes": null
+  },
+  "analgesia_trauma_toxacico": {
+    "area": "Emergência",
+    "prescricao": "USO ORAL \n\n1- NAPROXENO 500mg __________________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS SEGUIDOS \nHORÁRIO SUGERIDO: 08:00 – 20:00 \n\n3- CICLOBENZAPRINA 05mg _____________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO À NOITE ANTES DE DORMIR, POR 05 DIAS SEGUIDOS \n\n3- PARACETAMOL 350mg + CARISOPRODOL 150mg + CAFEÍNA 50mg___01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR, PODENDO REPETIR DE 6/6H SE NECESSÁRIO",
+    "informacoes": "ANALGESIA TRAUMA TOXÁCICO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TRAUMA TORÁCICO",
+      "ANALGESIA"
+    ],
+    "flashNotes": null
+  },
+  "tosse_seca": {
+    "area": "Pneumologia",
+    "prescricao": "USO ORAL \n\n1- LEVODROPROPIZINA XAROPE 6mg/ml (PERCOF)  _______ 01 FRASCO \nTOMAR 15 ML NO CASO DE TOSSE, PODENDO REPETIR DE 6/6 HORAS",
+    "informacoes": "TOSSE SECA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TOSSE"
+    ],
+    "flashNotes": null
+  },
+  "tosse_seca_severa": {
+    "area": "Pneumologia",
+    "prescricao": "USO ORAL\n\n1- LEVODROPROPIZINA XAROPE 6mg/ml(PERCOF) _______ 01 FRASCO \nTOMAR 15 ML NO CASO DE TOSSE, PODENDO REPETIR DE 6/6 HORAS \n\n2- CODEÍNA 30mg ___________________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO EM CASO DE TOSSE, PODENDO REPETIR DE 8/8 \nHORAS",
+    "informacoes": "TOSSE SECA SEVERA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TOSSE SECA"
+    ],
+    "flashNotes": null
+  },
+  "vaginose": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO INTRAVAGINAL \n\n1- METRONIDAZOL GELEIA VAGINAL 100mg/g _____ 01 BISNAGA \nAPLICAR O CONTEÚDO DE UM APLICADOR CHEIO DENTRO DA VAGINA, À \nNOITE AO DEITAR, POR 14 DIAS\n\n# EVITAR ROUPAS JUSTAS E DE MATERIAL SINTÉTICO (EX: CALCINHA DE \nRENDA) \n# EVITE DUCHAS VAGINAIS \n# NÃO UTILIZE SABONETES COMUNS PARA LAVAR A REGIÃO GENITAL, OPTE \nPOR SABONETES ÍNTIMOS",
+    "informacoes": "VAGINOSE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "VAGINOSE"
+    ],
+    "flashNotes": null
+  },
+  "candidiase": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO INTRAVAGINAL \n\n1- MICONAZOL VAGINAL 2% ______________ 1 BISNAGA\nUTILIZAR UM APLICADOR VIA VAGINAL, À NOITE POR 7 NOITES\n\nOU \n\n1- NISTATINA CREME VAGINAL 25.000 UI/g _____ 01 BISNAGA \nAPLICAR O CONTEÚDO DE UM APLICADOR CHEIO DENTRO DA VAGINA, À \nNOITE AO DEITAR, POR 14 DIAS \n\nOU \n\nUSO ORAL \n\n1- FLUCONAZOL 150 MG ____________________ 01 COMPRIMIDO \nTOMAR EM DOSE ÚNICA",
+    "informacoes": "CANDIDÍASE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CANDIDÍASE"
+    ],
+    "flashNotes": null
+  },
+  "tricomoniase": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- METRONIDAZOL 250 MG _______________ 08 COMPRIMIDOS  \nTOMAR 08 COMPRIMIDOS EM DOSE ÚNICA",
+    "informacoes": "TRICOMONIASE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "TRICOMONIASE"
+    ],
+    "flashNotes": null
+  },
+  "gonorreia_opcao_01": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- AZITROMICINA 500 MG ___________________ 02 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS EM DOSE ÚNICA \n \n2- CIPROFLOXACINO 500 MG _________________ 01 COMPRIMIDO \nTOMAR 01 COMPRIMIDO EM DOSE ÚNICA",
+    "informacoes": "GONORREIA OPÇÃO 01 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "GONORREIA"
+    ],
+    "flashNotes": null
+  },
+  "gonorreia_opcao_02": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- AZITROMICINA 500 MG ___________________ 02 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS EM DOSE ÚNICA \n \nUSO INTRAMUSCULAR\n\n2- CEFTRIAXONA 1G _______________________ 01 AMPOLA\nAPLICAR UMA AMPOLA IM DOSE ÚNICA",
+    "informacoes": "GONORREIA OPÇÃO 02 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "GONORREIA"
+    ],
+    "flashNotes": null
+  },
+  "cancro_mole": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- AZITROMICINA 500 MG __________________ 02 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS VO EM DOSE ÚNICA \n\nOU \n\nUSO INTRAMUSCULAR\nCEFTRIAXONA 1G______________________ 01 AMPOLA\nAPLICAR UMA AMPOLA DOSE ÚNICA",
+    "informacoes": "CANCRO MOLE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CANCRO MOLE"
+    ],
+    "flashNotes": null
+  },
+  "sifilis_tardia": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO INTRAMUSCULAR\n\n1- PENICILINA G BENZATINA 1.200.000 UI ___ 06 AMPOLAS \nAPLICAR UMA AMPOLA EM CADA GLÚTEO MÉDIO, A CADA 07 DIAS, ATÉ \nCOMPLETAR TRÊS DOSES",
+    "informacoes": "SÍFILIS TARDIA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "SÍFILIS",
+      "TARDIA"
+    ],
+    "flashNotes": null
+  },
+  "sifilis_primaria": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ITNRAMUSCULAR\n\n1- PENICILINA G BENZATINA 1.200.000 UI ___ 02 AMPOLAS \nAPLICAR UMA AMPOLA EM CADA GLÚTEO MÉDIO DOSE ÚNICA",
+    "informacoes": "SÍFILIS PRIMÁRIA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "SÍFILIS",
+      "PRIMÁRIA"
+    ],
+    "flashNotes": null
+  },
+  "herpes_genital": {
+    "area": "Ginecologia e Obstetrícia",
+    "prescricao": "USO ORAL \n\n1- ACICLOVIR 200 MG ____________________ 50 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 4/4H, EXCETUANDO-SE UMA DOSE NOTURNA, \nPOR 10 DIAS \nHORÁRIO SUGERIDO: 06:00 / 10:00 / 14:00 / 18:00 / 22:00",
+    "informacoes": "HERPES GENITAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "HERPES GENITAL"
+    ],
+    "flashNotes": null
+  },
+  "zika_virus": {
+    "area": "Infectologia",
+    "prescricao": "USO ORAL \n\n1- DIPIRONA 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H. \nINTERCALAR COM PARACETAMOL, SE NECESSÁRIO \n\n2- PARACETAMOL 750 MG __________________ 01 CAIXA \nTOMAR 01 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H. \n\n3- HIDROXIZINA 25 MG _______________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE COCEIRA OU VERMELHIDÃO NA PELE, PODENDO \nREPETIR DE 08/08H \n\n# TOMAR 01 COPO D’ÁGUA 10 VEZES AO DIA OU MAIS, CONFORME \nACEITAÇÃO. \n\n# NÃO TOMAR ASPIRINA, IBUPROFENO, DICLOFENACO NEM QUALQUER \nOUTRA MEDICAÇÃO SEM ORIENTAÇÃO MÉDICA.",
+    "informacoes": "ZIKA VIRUS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "zika virus"
+    ],
+    "flashNotes": null
+  },
+  "dipirona": {
+    "area": "Medicamentos",
+    "prescricao": "DIPIRONA 500 MG _________________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H SE \nNECESSÁRIO",
+    "informacoes": "DIPIRONA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DIPIRONA"
+    ],
+    "flashNotes": null
+  },
+  "dipirona_gotas": {
+    "area": "Medicamentos",
+    "prescricao": "DIPIRONA GOTAS 500mg/ml _________________ 01 FRASCO \nTOMAR 40 GOTAS SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H SE \nNECESSÁRIO.",
+    "informacoes": "DIPIRONA GOTAS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DIPIRONA GOTAS"
+    ],
+    "flashNotes": null
+  },
+  "paracetamol": {
+    "area": "Medicamentos",
+    "prescricao": "PARACETAMOL 750 MG ______________________ 01 CAIXA  \nTOMAR 01 COMPRIMIDO SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H SE \nNECESSÁRIO \n\nOU\n\nPARACETAMOL 500 MG ______________________ 01 CAIXA \nTOMAR 02 COMPRIMIDOS SE DOR OU FEBRE, PODENDO REPETIR DE 8/8H SE \nNECESSÁRIO.",
+    "informacoes": "PARACETAMOL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "paracetamol"
+    ],
+    "flashNotes": null
+  },
+  "pparacetamol_gotas": {
+    "area": "Medicamentos",
+    "prescricao": "PARACETAMOL GOTAS 200mg/ml ______________ 01 FRASCO \nTOMAR 80 GOTAS (4ml) SE DOR OU FEBRE, PODENDO REPETIR DE 6/6H SE \nNECESSÁRIO.",
+    "informacoes": "PPARACETAMOL GOTAS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PARACETAMOL GOTAS"
+    ],
+    "flashNotes": null
+  },
+  "paracetamol_codeina_paco": {
+    "area": "Medicamentos",
+    "prescricao": "PARACETAMOL 500 MG + CODEÍNA 30MG________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR INTENSA, PODENDO REPETIR DE 6/6H",
+    "informacoes": "PARACETAMOL + CODEÍNA (PACO) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PARACETAMOL",
+      "CODEINA",
+      "PACO"
+    ],
+    "flashNotes": null
+  },
+  "ibuprofeno": {
+    "area": "Medicamentos",
+    "prescricao": "IBUPROFENO 400 MG _______________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 4/4H, POR ATÉ 5 \nDIAS SEGUIDOS. \n\nOU \n\nIBUPROFENO 600 MG _______________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 6/6H, POR ATÉ 5 \nDIAS SEGUIDOS.",
+    "informacoes": "IBUPROFENO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "IBUPROFENO"
+    ],
+    "flashNotes": null
+  },
+  "diclofenaco": {
+    "area": "Medicamentos",
+    "prescricao": "DICLOFENACO 50 MG _______________________ 15 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H POR 05 DIAS",
+    "informacoes": "DICLOFENACO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DICLOFENACO"
+    ],
+    "flashNotes": null
+  },
+  "alginac": {
+    "area": "Medicamentos",
+    "prescricao": "ALGINAC 1.000 ____________________________ 06 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H, POR 05 DIAS SEGUIDOS \n\nOU\n\nALGINAC RETARD ____________________________ 06 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, POR 05 DIAS SEGUIDOS",
+    "informacoes": "ALGINAC - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DICLOFENACO",
+      "ALGINAC"
+    ],
+    "flashNotes": null
+  },
+  "nimesulida": {
+    "area": "Medicamentos",
+    "prescricao": "NIMESULIDA 100 MG _______________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS\n\nOU\n\nNIMESULIDA BETACICLODEXTRINA 400 MG __ 06 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 03 DIAS",
+    "informacoes": "NIMESULIDA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "NIMESULIDA"
+    ],
+    "flashNotes": null
+  },
+  "naproxeno": {
+    "area": "Medicamentos",
+    "prescricao": "NAPROXENO SÓDICO 500 MG ___________ 10 COMPRIMIDOS \nTOMAR UM COMPRIMIDO SE DOR, PODENDO REPETIR DE 12/12H POR ATÉ 05 \nDIAS SEGUIDOS",
+    "informacoes": "NAPROXENO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "NAPROXENO"
+    ],
+    "flashNotes": null
+  },
+  "piroxicam": {
+    "area": "Medicamentos",
+    "prescricao": "PIROXICAM 20 MG _________________________ 05 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 05 DIAS",
+    "informacoes": "PIROXICAM - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "PIROXICAM"
+    ],
+    "flashNotes": null
+  },
+  "meloxicam": {
+    "area": "Medicamentos",
+    "prescricao": "MELOXICAM 15 MG ________________________ 05 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 05 DIAS",
+    "informacoes": "MELOXICAM - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "MELOXICAM"
+    ],
+    "flashNotes": null
+  },
+  "cetoprofeno": {
+    "area": "Medicamentos",
+    "prescricao": "CETOPROFENO 100 MG ___________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS \n\nOU\n\nCETOPROFENO 150 MG ___________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 05 DIAS\n\nOU\n\nCETOPROFENO 200 MG ______________________ 05 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO UMA VEZ AO DIA POR 05 DIAS",
+    "informacoes": "CETOPROFENO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CETOPROFENO"
+    ],
+    "flashNotes": null
+  },
+  "cetorolaco": {
+    "area": "Medicamentos",
+    "prescricao": "CETOROLACO 10 MG ________________________ 10 COMPRIMIDOS \nDISSOLVER 01 COMPRIMIDO SUBLINGUAL, PODENDO REPETIR DE 6/6H POR \nATÉ 05 DIAS SEGUIDOS",
+    "informacoes": "CETOROLACO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CETOROLACO"
+    ],
+    "flashNotes": null
+  },
+  "celecoxibe": {
+    "area": "Medicamentos",
+    "prescricao": "CELECOXIBE 100 MG _______________________ 10 COMPRIMIDOS \nTOMAR UM COMPRIMIDO DE 12/12H POR 05 DIAS \n\nOU\n\nCELECOXIBE 200 MG _______________________ 10 COMPRIMIDOS \nTOMAR UM COMPRIMIDO SE DOR, PODENDO REPETIR DE 12/12H POR ATÉ 05 \nDIAS CONSECUTIVOS.",
+    "informacoes": "CELECOXIBE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "CELECOXIBE"
+    ],
+    "flashNotes": null
+  },
+  "etorocoxibe": {
+    "area": "Medicamentos",
+    "prescricao": "ETORICOXIBE 60 MG _______________________ 10 COMPRIMIDOS \nTOMAR UM COMPRIMIDO DE 12/12H POR 05 DIAS\n\nOU\n\nETORICOXIBE 60 MG _______________________ 10 COMPRIMIDOS \nTOMAR UM COMPRIMIDO SE DOR, PODENDO REPETIR DE 12/12H POR ATÉ 05 \nDIAS SEGUIDOS.",
+    "informacoes": "ETOROCOXIBE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ETOROCOXIBE"
+    ],
+    "flashNotes": null
+  },
+  "escopolamina": {
+    "area": "Medicamentos",
+    "prescricao": "BUTILBROMETO DE ESCOPOLAMINA 10 MG ______ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE DOR, PODENDO REPETIR DE 8/8H",
+    "informacoes": "ESCOPOLAMINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ESCOPOLAMINA"
+    ],
+    "flashNotes": null
+  },
+  "naratriptano": {
+    "area": "Medicamentos",
+    "prescricao": "NARATRIPANO 2,5 MG ____________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO AO PRIMEIRO SINAL DE ENXAQUECA. SE NÃO \nHOUVER MELHORA, PODE REPETIR 01 COMPRIMIDO APÓS 6H HORAS.",
+    "informacoes": "NARATRIPTANO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "naratriptano"
+    ],
+    "flashNotes": null
+  },
+  "sumatriptano": {
+    "area": "Medicamentos",
+    "prescricao": "SUMATRIPTANO 25 MG ____________________ 02 CAIXAS \nTOMAR 01 COMPRIMIDO AO PRIMEIRO SINAL DE ENXAQUECA. SE NÃO \nHOUVER MELHORA, PODE REPETIR 02 COMPRIMIDOS A CADA 02 HORAS, ATÉ \nO MÁXIMO DE 04 VEZES AO DIA.",
+    "informacoes": "SUMATRIPTANO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "sumatriptano"
+    ],
+    "flashNotes": null
+  },
+  "sumatriptana_naproxeno": {
+    "area": "Medicamentos",
+    "prescricao": "SUMATRIPTANA 50mg + NAPROXENO 500mg ___ 01 CAIXA \nTOMAR 01 COMPRIMIDO, LOGO NO INÍCIO DA CRISE DE ENXAQUECA \n\nOU\n\nSUMATRIPTANA 85mg + NAPROXENO 500mg ___ 01 CAIXA \nTOMAR 01 COMPRIMIDO, LOGO NO INÍCIO DA CRISE DE ENXAQUECA",
+    "informacoes": "SUMATRIPTANA + NAPROXENO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "sumatriptana + naproxeno"
+    ],
+    "flashNotes": null
+  },
+  "cefalium": {
+    "area": "Medicamentos",
+    "prescricao": "CEFALIUM  ____________________________ 01 CAIXA \nTOMAR 01 A 02 COMPRIMIDOS AO PRIMEIRO SINAL DE ENXAQUECA. SE NÃO \nHOUVER MELHORA, PODE INGERIR UM COMPRIMIDO A CADA 30 MIN, ATÉ UM \nMÁXIMO DE 06 COMPRIMIDOS",
+    "informacoes": "CEFALIUM - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "cefalium"
+    ],
+    "flashNotes": null
+  },
+  "ciclobenzaprina": {
+    "area": "Medicamentos",
+    "prescricao": "CICLOBENZAPRINA 10 MG ___________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO À NOITE",
+    "informacoes": "CICLOBENZAPRINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ciclobenzaprina"
+    ],
+    "flashNotes": null
+  },
+  "metoclopramida": {
+    "area": "Medicamentos",
+    "prescricao": "METOCLOPRAMIDA 10 MG ____________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H",
+    "informacoes": "METOCLOPRAMIDA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "metoclopramida"
+    ],
+    "flashNotes": null
+  },
+  "bromoprida": {
+    "area": "Medicamentos",
+    "prescricao": "BROMOPRIDA 10 MG ________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H",
+    "informacoes": "BROMOPRIDA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "bromoprida"
+    ],
+    "flashNotes": null
+  },
+  "ondansetrona": {
+    "area": "Medicamentos",
+    "prescricao": "ONDANSETRONA 8 MG _______________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS OU VÔMITOS, PODENDO REPETIR DE \n8/8H",
+    "informacoes": "ONDANSETRONA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ondansetrona"
+    ],
+    "flashNotes": null
+  },
+  "domperidona": {
+    "area": "Medicamentos",
+    "prescricao": "DOMPERIDONA 10 MG _______________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO 15 A 30 MIN ANTES DAS REFEIÇÕES, ATÉ 3X AO DIA, \nPOR ATÉ 4 SEMANAS",
+    "informacoes": "DOMPERIDONA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "domperidona"
+    ],
+    "flashNotes": null
+  },
+  "dramin_b6": {
+    "area": "Medicamentos",
+    "prescricao": "DIMENIDRINATO 50 MG + PIRIDOXINA 10MG ___ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS, TONTURA OU VÔMITO, PODENDO \nREPETIR DE 6/6H",
+    "informacoes": "DRAMIN B6 - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "DRAMIN"
+    ],
+    "flashNotes": null
+  },
+  "meclizna_meclin": {
+    "area": "Medicamentos",
+    "prescricao": "MECLIZNA 50 MG __________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE NÁUSEAS, TONTURA OU VÔMITO, PODENDO \nREPETIR DE 12/12H",
+    "informacoes": "MECLIZNA  (MECLIN) - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "MECLIN"
+    ],
+    "flashNotes": null
+  },
+  "betaistina": {
+    "area": "Medicamentos",
+    "prescricao": "BETAISTINA 16 MG ________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO DE 8/8H",
+    "informacoes": "BETAISTINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "betaistina"
+    ],
+    "flashNotes": null
+  },
+  "cinarizina": {
+    "area": "Medicamentos",
+    "prescricao": "CINARIZINA 75 MG ________________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO SE CRISE DE VERTIGEM INTENSA, PODENDO \nREPETIR DE 8/8H",
+    "informacoes": "CINARIZINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "cinarizina"
+    ],
+    "flashNotes": null
+  },
+  "benefiber": {
+    "area": "Medicamentos",
+    "prescricao": "BENEFIBER _______________________________ 01 CAIXA \nDISSOLVER O CONTEÚDO DE UM ENVELOPE EM UM COPO DE ÁGUA OU SUCO \nE TOMAR ÀS REFEIÇÕES 02 VEZES AO DIA POR 03 DIAS",
+    "informacoes": "BENEFIBER - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "FIBRA",
+      "BENEFIBER",
+      "PSYLLIUM"
+    ],
+    "flashNotes": null
+  },
+  "laxante_osmotico": {
+    "area": "Medicamentos",
+    "prescricao": "MUVINLAX _______________________________ 01 CAIXA \nDISSOLVER O CONTEÚDO DE UM ENVELOPE EM UM COPO DE ÁGUA E TOMAR \nUMA VEZ AO DIA PELA MANHÃ",
+    "informacoes": "LAXANTE OSMÓTICO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "LAXANTE"
+    ],
+    "flashNotes": null
+  },
+  "hidroxizina": {
+    "area": "Medicamentos",
+    "prescricao": "HIDROXIZINA 25 MG _______________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO DE 08/08H POR 07 DIAS",
+    "informacoes": "HIDROXIZINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "hidroxizina"
+    ],
+    "flashNotes": null
+  },
+  "dexclorfeniramina": {
+    "area": "Medicamentos",
+    "prescricao": "DEXCLORFENIRAMINA 2 MG __________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO DE 08/08H POR 07 DIAS",
+    "informacoes": "DEXCLORFENIRAMINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "dexclorfeniramina"
+    ],
+    "flashNotes": null
+  },
+  "cetirizina": {
+    "area": "Medicamentos",
+    "prescricao": "CETIRIZINA 10mg _______________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO AO DIA POR 05 DIAS",
+    "informacoes": "CETIRIZINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "cetirizina"
+    ],
+    "flashNotes": null
+  },
+  "levocetirizina": {
+    "area": "Medicamentos",
+    "prescricao": "LEVOCETIRIZINA 5mg _______________________ 01 CAIXA \nTOMAR 01 COMPRIMIDO AO DIA POR 05 DIAS",
+    "informacoes": "LEVOCETIRIZINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "levocetirizina"
+    ],
+    "flashNotes": null
+  },
+  "fexofenadina": {
+    "area": "Medicamentos",
+    "prescricao": "FEXOFENADINA 60mg _______________________ 01 CAIXA  \nTOMAR 01 COMPRIMIDO DE 12/12H POR 07 DIAS",
+    "informacoes": "FEXOFENADINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "fexofenadina"
+    ],
+    "flashNotes": null
+  },
+  "fexofenadina_1": {
+    "area": "Medicamentos",
+    "prescricao": "FEXOFENADINA 180mg _______________________ 01 CAIXA  \nTOMAR 01 COMPRIMIDO AO DIA, SE ESPIRROS, CORIZA, TOSSE OU COCEIRA",
+    "informacoes": "FEXOFENADINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "fexofenadina"
+    ],
+    "flashNotes": null
+  },
+  "loratadina": {
+    "area": "Medicamentos",
+    "prescricao": "LORATADINA 10MG __________________ 01 CAIXA\nTOMAR 01 COMPRIMIDO UMA VEZ AO DIA POR 05 DIAS",
+    "informacoes": "LORATADINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "loratadina"
+    ],
+    "flashNotes": null
+  },
+  "omeprazol": {
+    "area": "Medicamentos",
+    "prescricao": "OMEPRAZOL 20 MG ___________________________ 56 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, EM JEJUM, POR 08 SEMANAS",
+    "informacoes": "OMEPRAZOL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "omeprazol"
+    ],
+    "flashNotes": null
+  },
+  "pantoprazol": {
+    "area": "Medicamentos",
+    "prescricao": "PANTOPRAZOL 20 MG ___________________________ 56 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, EM JEJUM, POR 08 SEMANAS\n\nOU\n\nPANTOPRAZOL 40 MG ___________________________ 56 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, EM JEJUM, POR 08 SEMANAS",
+    "informacoes": "PANTOPRAZOL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "pantoprazol"
+    ],
+    "flashNotes": null
+  },
+  "esomeprazol": {
+    "area": "Medicamentos",
+    "prescricao": "ESOMEPRAZOL 20 MG ___________________________ 56 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, EM JEJUM, POR 08 SEMANAS\n\nOU\n\nESOMEPRAZOL 40 MG ___________________________ 56 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, EM JEJUM, POR 08 SEMANAS",
+    "informacoes": "ESOMEPRAZOL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "esomeprazol"
+    ],
+    "flashNotes": null
+  },
+  "prednisona": {
+    "area": "Medicamentos",
+    "prescricao": "PREDNISONA 20 MG ________________________ 05 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO ÀS 08:00 POR 05 DIAS \nNÃO USAR SEM RECOMENDAÇÃO MÉDICA",
+    "informacoes": "PREDNISONA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "prednisona"
+    ],
+    "flashNotes": null
+  },
+  "clobetasol_creme": {
+    "area": "Medicamentos",
+    "prescricao": "CLOBETASOL CREME 0,5 mg/g _______________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A ÁREA AFETADA DUAS VEZES AO DIA",
+    "informacoes": "CLOBETASOL CREME - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "clobetasol creme"
+    ],
+    "flashNotes": null
+  },
+  "acetilcisteina_xarope": {
+    "area": "Medicamentos",
+    "prescricao": "ACETILCISTEÍNA XAROPE 40mg/ml ___________ 01 FRASCO \nTOMAR 15 ML À NOITE POR 5 DIAS",
+    "informacoes": "ACETILCISTEÍNA XAROPE - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ACETILCISTEÍNA"
+    ],
+    "flashNotes": null
+  },
+  "ambroxol": {
+    "area": "Medicamentos",
+    "prescricao": "CLORIDRATO DE AMBROXOL XAROPE 30mg/5ml __ 01 FRASCO \nTOMAR 5 ML, 3 VEZES AO DIA",
+    "informacoes": "AMBROXOL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ambroxol"
+    ],
+    "flashNotes": null
+  },
+  "levodropropizina": {
+    "area": "Medicamentos",
+    "prescricao": "LEVODROPROPIZINA XAROPE 6mg/ml _______ 01 FRASCO \nTOMAR 10 ML NO CASO DE TOSSE, PODENDO REPETIR DE 6/6 HORAS",
+    "informacoes": "LEVODROPROPIZINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "levodropropizina"
+    ],
+    "flashNotes": null
+  },
+  "cefalexina": {
+    "area": "Medicamentos",
+    "prescricao": "CEFALEXINA 500 MG _______________________ 28 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 6/6H POR 07 DIAS \nHORÁRIO SUGERIDO: 06:00 / 12:00 / 18:00 / 00:00",
+    "informacoes": "CEFALEXINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "cefalexina"
+    ],
+    "flashNotes": null
+  },
+  "amoxicilina": {
+    "area": "Medicamentos",
+    "prescricao": "AMOXICILINA 500 MG ______________________ 21 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H POR 07 DIAS \nHORÁRIO SUGERIDO: 06:00 / 14:00 / 22:00 \n\nOU\n\nAMOXICILINA 500 MG ______________________ 42 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8H POR 14 DIAS \nHORÁRIO SUGERIDO: 06:00 / 14:00 / 22:00",
+    "informacoes": "AMOXICILINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "amoxicilina"
+    ],
+    "flashNotes": null
+  },
+  "amoxicilina_clavulanato": {
+    "area": "Medicamentos",
+    "prescricao": "AMOXICILINA 875mg + CLAVULANATO 125mg ___ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00\n\nOU\n\nAMOXICILINA 875mg + CLAVULANATO 125mg ___ 28 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 14 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00",
+    "informacoes": "AMOXICILINA + CLAVULANATO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "amoxicilina + clavulanato"
+    ],
+    "flashNotes": null
+  },
+  "azitromicina": {
+    "area": "Medicamentos",
+    "prescricao": "AZITROMICINA 500 MG _____________________ 03 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 3 DIAS \nHORÁRIO SUGERIDO: 08:00\n\nOU\n\nAZITROMICINA 500 MG _____________________ 07 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00\n\nOU\n\nAZITROMICINA 500 MG _____________________ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 14 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00",
+    "informacoes": "AZITROMICINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "azitromicina"
+    ],
+    "flashNotes": null
+  },
+  "claritromicina": {
+    "area": "Medicamentos",
+    "prescricao": "CLARITROMICINA 500 MG ___________________ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00\n\nOU\n\nCLARITROMICINA 500 MG ___________________ 28 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 14 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00",
+    "informacoes": "CLARITROMICINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "claritromicina"
+    ],
+    "flashNotes": null
+  },
+  "eritromicina": {
+    "area": "Medicamentos",
+    "prescricao": "ERITROMICINA 500 MG ______________________ 40 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 6/6H POR 10 DIAS \nHORÁRIO SUGERIDO: 06:00 / 12:00 / 18:00 / 00:00",
+    "informacoes": "ERITROMICINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "eritromicina"
+    ],
+    "flashNotes": null
+  },
+  "norfloxacino": {
+    "area": "Medicamentos",
+    "prescricao": "NORFLOXACINO 400 MG _____________________ 06 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 03 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00",
+    "informacoes": "NORFLOXACINO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "norfloxacino"
+    ],
+    "flashNotes": null
+  },
+  "ciprofloxacino": {
+    "area": "Medicamentos",
+    "prescricao": "CIPROFLOXACINO 500 MG ___________________ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00\n\nOU\n\nCIPROFLOXACINO 500 MG ___________________ 28 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 14 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00",
+    "informacoes": "CIPROFLOXACINO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "ciprofloxacino"
+    ],
+    "flashNotes": null
+  },
+  "levofloxacino": {
+    "area": "Medicamentos",
+    "prescricao": "LEVOFLOXACINO 750 MG ____________________ 07 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00\n\nOU\n\nLEVOFLOXACINO 750 MG ____________________ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 14 DIAS \nHORÁRIO SUGERIDO: 08:00",
+    "informacoes": "LEVOFLOXACINO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "levofloxacino"
+    ],
+    "flashNotes": null
+  },
+  "moxifloxacino": {
+    "area": "Medicamentos",
+    "prescricao": "MOXIFLOXACINO 400 MG ____________________ 07 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00\n\nOU\n\nMOXIFLOXACINO 400 MG ____________________ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA POR 14 DIAS \nHORÁRIO SUGERIDO: 08:00",
+    "informacoes": "MOXIFLOXACINO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "moxifloxacino"
+    ],
+    "flashNotes": null
+  },
+  "clindamicina": {
+    "area": "Medicamentos",
+    "prescricao": "CLINDAMICINA 300mg _______________________ 21 CÁPSULAS \nTOMAR 01 CÁPSULA DE 12/12 HORAS POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00 / 20:00\n\nOU\n\nCLINDAMICINA 300mg _______________________ 21 CÁPSULAS \nTOMAR 01 CÁPSULA DE 8/8 HORAS POR 07 DIAS \nHORÁRIO SUGERIDO: 06:00 / 14:00 / 22:00\n\nOU\n\nCLINDAMICINA 300mg _______________________ 28 CÁPSULAS \nTOMAR 01 CÁPSULA DE 6/6 HORAS POR 07 DIAS \nHORÁRIO SUGERIDO: 05:00 / 11:00 / 17:00 / 23:00 \n\nOU\n\nCLINDAMICINA 300mg _______________________ 42 CÁPSULAS \nTOMAR 02 CÁPSULAS DE 8/8 HORAS POR 07 DIAS \nHORÁRIO SUGERIDO: 06:00 / 14:00 / 22:00",
+    "informacoes": "CLINDAMICINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "clindamicina"
+    ],
+    "flashNotes": null
+  },
+  "metronidazol": {
+    "area": "Medicamentos",
+    "prescricao": "METRONIDAZOL 250 MG _____________________ 40 COMPRIMIDOS  \nTOMAR 01 COMPRIMIDO DE 6/6H POR 10 DIAS \nHORÁRIO SUGERIDO: 06:00 / 12:00 / 18:00 / 00:00 \n\nOU\n\nMETRONIDAZOL 250 MG _____________________ 42 COMPRIMIDOS  \nTOMAR 02 COMPRIMIDOS DE 8/8H POR 07 DIAS \nHORÁRIO SUGERIDO: 06:00 / 14:00 / 22:00 \n\nOU\n\nMETRONIDAZOL 250 MG _____________________ 42 COMPRIMIDOS  \nTOMAR 02 COMPRIMIDOS DE 8/8H POR 14 DIAS \n\nOU\n\nMETRONIDAZOL 250 MG _____________________ 28 COMPRIMIDOS  \nTOMAR 02 COMPRIMIDOS DE 12/12H POR 07 DIAS \nHORÁRIO SUGERIDO: 08:00 / 22:00 \n\n\n\nMETRONIDAZOL 250 MG _____________________ 08 COMPRIMIDOS  \nTOMAR 08 COMPRIMIDOS EM DOSE ÚNICA",
+    "informacoes": "METRONIDAZOL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "metronidazol"
+    ],
+    "flashNotes": null
+  },
+  "metronidazol_vaginal": {
+    "area": "Medicamentos",
+    "prescricao": "METRONIDAZOL GELEIA VAGINAL 100mg/g _____ 01 BISNAGA \nAPLICAR O CONTEÚDO DE UM APLICADOR CHEIO DENTRO DA VAGINA, PELA \nMANHÃ AO ACORDAR E À NOITE AO DEITAR, POR 05 DIAS",
+    "informacoes": "METRONIDAZOL VAGINAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "metronidazol vaginal"
+    ],
+    "flashNotes": null
+  },
+  "bactrim": {
+    "area": "Medicamentos",
+    "prescricao": "SULFAMETOXAZOL 800mg + TRIMETOPRIMA 160mg __ 14 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12H POR 07 DIAS",
+    "informacoes": "BACTRIM - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "bactrim"
+    ],
+    "flashNotes": null
+  },
+  "rifampicina": {
+    "area": "Medicamentos",
+    "prescricao": "RIFAMPICINA 300 MG ______________________________ 03 CÁPSULAS \nTOMAR 03 CÁPSULAS EM DOSE ÚNICA\n\nOU\n\nRIFAMPICINA 300 MG ______________________________ 08 CÁPSULAS \nTOMAR 02 CÁPSULAS DE 12/12 HORAS POR DOIS DIAS\n\nOU\n\nRIFAMPICINA 300 MG ______________________________ 08 CÁPSULAS \nTOMAR 02 CÁPSULAS PELA MANHÃ EM JEJUM, NO MESMO HORÁRIO, POR 04 \nDIAS SEGUIDOS",
+    "informacoes": "RIFAMPICINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "rifampicina"
+    ],
+    "flashNotes": null
+  },
+"amitriptilina": {
+    "area": "Medicamentos",
+    "prescricao": "AMITRIPTILINA 25mg ______________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO À NOITE, ANTES DE DORMIR, CONTINUAMENTE",
+    "informacoes": "AMITRIPTILINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "amitriptilina"
     ]
   },
-  "alta_parto_vaginal": {
-    "area": "Obstetrícia",
-    "prescricao": "PUÉRPERA DE PARTO VAGINAL, OCORRIDO EM XX, MANTIDA EM OBSERVAÇÃO POR CERCA DE 24H, SEM INTERCORRÊNCIAS DURANTE TODO PERÍODO. ENCONTRA-SE EM BOM ESTADO GERAL, COM CONDIÇÕES DE ALTA HOSPITALAR.",
-    "informacoes": "ALTA PARTO VAGINAL - Condição médica que requer prescrição específica.",
+  "fluoxetina": {
+    "area": "Medicamentos",
+    "prescricao": "FLUOXETINA 20 mg ______________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO PELA MANHÃ, TODOS OS DIAS",
+    "informacoes": "FLUOXETINA - Condição médica que requer prescrição específica.",
     "sinonimos": [
-      "alta vaginal",
-      "altar parto vaginal",
-      "vaginal"
+      "fluoxetina"
     ]
   },
-  "puerperio_parto_cesarea_evolucao": {
-    "area": "Obstetrícia",
-    "prescricao": "# HISTÓRIA DA DOENÇA ATUAL\nPUÉRPERA PÓS-PARTO CESÁREA DEVIDO A XX, IG, OCORRIDO EM XX ÀS XXH, SEM INTERCORRÊNCIAS.\n\n# HISTÓRIA PESSOAL PREGRESSA\nG0 P0 A0 // IG: // TS: // SOROLOGIAS // TOXOPLASMOSE\n\nNEGA ALERGIAS E COMORBIDADES\nNEGA USO DE ÁLCOOL, TABAGISMO E DROGAS DURANTE A GESTAÇÃO\nNEGA TRANSFUSÃO SANGUÍNEA\nCIRURGIAS PRÉVIAS:\nTATUAGENS:\nESCOLARIDADE:\nPROFISSÃO:\nESTADO CIVIL:\nPARCEIRO:\n\n# EVOLUÇÃO\nPACIENTE AVALIADA EM LEITO DE ENFERMARIA, SEM QUEIXAS. AFEBRIL. NEGA QUEIXAS ÁLGICAS, FEBRE, NÁUSEAS, VÔMITOS OU OUTROS SINTOMAS. EM DIETA VIA ORAL, COM BOA ACEITAÇÃO. DIURESE E EVACUAÇÃO PRESENTE, SEM ALTERAÇÕES. DEAMBULAÇÃO SEM DIFICULDADES.\n\n# EXAME FÍSICO\nBOM ESTADO GERAL, CORADA, HIDRATADA, ANICTÉRICA, ACIANÓTICA, AFEBRIL, EUPNEICA\nMAMAS: INDOLOR, SEM FISSURAS OU ALTERAÇÕES. EXPRESSÃO POSITIVA DO COLOSTRO. RN EM AME\nABDOME: GLOBOSO, SEM SINAIS DE IRRITAÇÃO PERITONIAL. ÚTERO CONTRAÍDO AO NÍVEL DA CICATRIZ UMBILICAL\nFO LIMPA, SEM SINAIS INFLAMATÓRIOS OU FLOGÍSTICOS\nLÓQUIOS FISIOLÓGICOS\n\n# EXAMES COMPLEMENTARES\nLABORATORIAIS\n(): HB / HT / PLAQ / LEUC / NEUT / BAST / PCR / EAS\n\n# MÉTODO CONTRACEPTIVO DE ESCOLHA\nPROGESTÁGENO ORAL // PROGESTÁGENO INJETÁVEL // DIU // LAQUEADURA\n\n# CONDUTA\nMANTENHO INTERNAÇÃO, CUIDADOS E VIGILÂNCIAS\nPLANEJO ALTA HOSPITALAR APÓS 48H DO PARTO CESÁREA\nTROCO PRESCRIÇÃO PARA VO\nPRESCREVO\n\n\nALTA COM ORIENTAÇÕES\nENCAMINHO PARA INSERÇÃO DE DIU / ORIENTO PLANEJAMENTO FAMILIAR E ABSTINÊNCIA SEXUAL POR 45 DIAS PÓS-PARTO\nORIENTO SEGUIMENTO DE PUERPÉRIO NA UBS\nORIENTO HIGIENE DE FO E RETIRADA DE PONTOS APÓS 10 DIAS\nPRESCREVO SINTOMÁTICOS E SULFATO FERROSO\nFORNEÇO LICENÇA MATERNIDADE/PATERNIDADE",
-    "informacoes": "EVOLUÇÃO PARTO CESÁREO - PARTO CESÁREA",
+  "citalopram": {
+    "area": "Medicamentos",
+    "prescricao": "CITALOPRAM 20 mg ______________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO À NOITE, ANTES DE DORMIR, CONTINUAMENTE",
+    "informacoes": "CITALOPRAM - Condição médica que requer prescrição específica.",
     "sinonimos": [
-      "parto cesareo",
-      "cesarea",
-      "cesareana"
+      "citalopram"
     ]
   },
-  "alta_parto_cesareo": {
-    "area": "Obstetrícia",
-    "prescricao": "PUÉRPERA DE PARTO CESÁREA, OCORRIDO EM XX, MANTIDA EM OBSERVAÇÃO POR CERCA DE 48H, SEM INTERCORRÊNCIAS DURANTE TODO PERÍODO. ENCONTRA-SE EM BOM ESTADO GERAL, COM CONDIÇÕES DE ALTA HOSPITALAR.",
-    "informacoes": "ALTA PARTO CESAREO - Condição médica que requer prescrição específica.",
+  "venlafaxina": {
+    "area": "Medicamentos",
+    "prescricao": "VENLAFAXINA 37,5mg _______________________ 10 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, POR 10 DIAS\n\nOU\n\nVENLAFAXINA 75mg ________________________ 30 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO, CONTINUAMENTE \n\nOU\n\nVENLAFAXINA 75mg ________________________ 30 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS AO DIA, NO MESMO HORÁRIO, CONTINUAMENTE",
+    "informacoes": "VENLAFAXINA - Condição médica que requer prescrição específica.",
     "sinonimos": [
-      "alta cesarea",
-      "cesareana"
+      "venlafaxina"
     ]
   },
-  "evolucao_gestante": {
-    "area": "Obstetrícia",
-    "prescricao": "# HISTÓRIA DA DOENÇA ATUAL\nGESTANTE ENCAMINHADA DA UBS/CRASM DEVIDO \nDMG // DHEG //\nEM USO DE \n\n#HISTÓRIA PESSOAL PREGRESSA\nG0 P0 A0 // IG: (USG: ) // TS: // SOROLOGIAS // TOXOPLASMOSE\n\nNEGA ALERGIAS E COMORBIDADES\nNEGA USO DE ÁLCOOL, TABAGISMO E DROGAS DURANTE A GESTAÇÃO\nNEGA TRANSFUSÃO SANGUÍNEA\nCIRURGIAS PRÉVIAS:\nTATUAGENS:\nESCOLARIDADE:\nPROFISSÃO:\nESTADO CIVIL:\nPARCEIRO:\n\n# EVOLUÇÃO\nPACIENTE AVALIADA EM LEITO DE ENFERMARIA, EM BOM ESTADO GERAL, SEM QUEIXAS. NEGA CONTRAÇÕES, SANGRAMENTOS, PERDA DE LÍQUIDO E CORRIMENTO. NEGA NÁUSEAS E VÔMITOS. AFEBRIL. EM DIETA VIA ORAL, COM BOA ACEITAÇÃO. DIURESE E EVACUAÇÃO PRESENTE, SEM ALTERAÇÕES. DEAMBULAÇÃO SEM DIFICULDADES.\n\n# EXAME FÍSICO\nBOM ESTADO GERAL, CORADA, HIDRATADA, ANICTÉRICA, ACIANÓTICA, AFEBRIL, EUPNEICA\nMAMAS: INDOLOR, SEM FISSURAS OU ALTERAÇÕES.\nABDOME: GLOBOSO, SEM SINAIS DE IRRITAÇÃO PERITONIAL. ÚTERO NÃO PALPÁVEL.\nDU: // BCF: BMP // MF:\n\n\n# EXAMES COMPLEMENTARES\nUSG COM DOPPLER\n\nLABORATORIAIS\n(): HB / HT / PLAQ / LEUC / NEUT / BAST / PCR / EAS\n\n\n# MÉTODO CONTRACEPTIVO DE ESCOLHA\n\n\n# CONDUTA\nMANTENHO INTERNAÇÃO, CUIDADOS E VIGILÂNCIA\nSOLICITO EXAMES LABORATORIAIS / DE IMAGEM\nPRESCREVO\n\nALTA HOSPITALAR\nENCAMINHO AO CRASM/UBS PARA SEGUIMENTO \nPRESCREVO\nORIENTO SINAIS DE ALARME E RETORNO SE PRESENTES",
-    "informacoes": "EVOLUÇÃO GESTANTE - Condição médica que requer prescrição específica.",
+  "haloperidol": {
+    "area": "Medicamentos",
+    "prescricao": "HALOPERIDOL 1mg ________________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO\n\nOU\n\n HALOPERIDOL 5mg ________________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO AO DIA, NO MESMO HORÁRIO\n\nOU\n\nHALOPERIDOL 5mg ________________________ 40 COMPRIMIDOS \nTOMAR 02 COMPRIMIDOS AO DIA, NO MESMO HORÁRIO\n\nOU\n\nHALOPERIDOL 5mg ________________________ 60 COMPRIMIDOS \nTOMAR 03 COMPRIMIDOS AO DIA, NO MESMO HORÁRIO",
+    "informacoes": "HALOPERIDOL - Condição médica que requer prescrição específica.",
     "sinonimos": [
-      "gestante",
-      "evolução gestante"
+      "haloperidol"
     ]
   },
-  "alta_gestante": {
-    "area": "Obstetrícia",
-    "prescricao": "GESTANTE, IG, INTERNADA PARA XX, REALIZADO XX, SEM INTERCORRÊNCIAS DURANTE TODO PERÍODO. ENCONTRA-SE EM BOM ESTADO GERAL, COM CONDIÇÕES DE ALTA HOSPITALAR.",
-    "informacoes": "ALTA GESTANTE - Condição médica que requer prescrição específica.",
+  "clorpromazina": {
+    "area": "Medicamentos",
+    "prescricao": "CLORPROMAZINA 25mg _____________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO UMA VEZ AO DIA, À NOITE\n\nOU\n\nCLORPROMAZINA 25mg _____________________ 60 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12 HORAS \nHORÁRIO SUGERIDO: 08:00 – 20:00\n\nOU\n\nCLORPROMAZINA 25mg _____________________ 90 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8 HORAS \nHORÁRIO SUGERIDO: 06:00 – 14:00 – 22:00\n\nOU\n\nCLORPROMAZINA 25mg _____________________ 120 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 6/6 HORAS \nHORÁRIO SUGERIDO: 06:00 – 12:00 – 18:00 – 00:00\n\nOU\n\nCLORPROMAZINA 100mg _____________________ 90 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 8/8 HORAS \nHORÁRIO SUGERIDO: 06:00 – 14:00 – 22:00",
+    "informacoes": "CLORPROMAZINA - Condição médica que requer prescrição específica.",
     "sinonimos": [
-      "gestante",
-      "alta gestante"
+      "clorpromazina"
     ]
   },
-  "receituario_pos_parto": {
-    "area": "Obstetrícia",
-    "prescricao": "USO ORAL\n\n1 . SULFATO FERROSO 40 mg________________________________ 120 COMP\nTOMAR 01 COMPRIMIDO ANTES DO ALMOÇO E 01 COMPRIMIDO ANTES DO JANTAR, POR 4 MESES.\n\n2. DIPIRONA 500 mg ______________________________________ 20 COMP\nTOMAR 01 COMPRIMIDO DE 6 EM 6H, EM CASO DE DOR LEVE.\n\n3. IBUPROFENO 600 mg ____________________________________ 10 COMP\nTOMAR 01 COMPRIMIDO DE 8 EM 8H, POR 3 DIAS.\n\n​4. SIMETICONA 40 mg ____________________________________ 10 COMP\n​TOMAR 01 COMPRIMIDO DE 8 EM 8 H, SE TIVER GASES\n\n5. DESOGESTREL 75 mg __________________________________ CONTÍNUO\nTOMAR 1 COMPRIMIDO 1 VEZ AO DIA, SEM INTERRUPÇÃO. INICIAR 40 DIAS APÓS O PARTO.\n\n​OU\n\n5. MEDROXIPROGESTERONA 150MG ____________________________ CONTINUO \nAPLICAR 1 DOSE 1X A CADA 90 DIAS , SEM INTERRUPÇÃO. INICIAR 40 DIAS APÓS O PARTO. \n \nRECOMENDAÇÕES\n- Evitar relação sexual e atividade física vigorosa por 40 dias.\n- Procurar unidade básica de saúde para consulta de puerpério com 30 dias.\n- Seguir todas as recomendações da(s) receita(s) médica(s).\n- Procurar atendimento médico imediato em caso de dor e/ou vermelhidão excessiva nas mamas, dificuldade para esvaziar as mamas, levando a \"empedramento\", dor e inchaço, ou ainda se apresentar sintomas como febre, sangramento vaginal intenso de odor forte, alterações da ferida operatória (se for o caso), tais como abaulamento, inchaço, vermelhidão ou drenagem de qualquer tipo de secreção (principalmente, pus).\n- O aleitamento é de extrema importância, tanto para a criança quanto para a mãe. Apenas o médico pode contraindicar.\n- Não é recomendado um período menor do que 1 ano entre um parto e uma nova gestação. Assim, é de extrema importância que seja utilizado algum método contraceptivo.\n​- Cólicas tipo menstruais são normais, pois o útero está diminuindo.",
-    "informacoes": "RECEITUÁRIO PÓS PARTO - Condição médica que requer prescrição específica.",
+  "risperidona": {
+    "area": "Medicamentos",
+    "prescricao": "RISPERIDONA 1mg ________________________ 20 COMPRIMIDOS  \nTOMAR 01 COMPRIMIDO À NOITE, CONTINUAMENTE \n\nOU\n\nRISPERIDONA 2mg ________________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO À NOITE, CONTINUAMENTE\n\nOU\n\nRISPERIDONA 3mg ________________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO À NOITE, CONTINUAMENTE\n\nOU\n\nRISPERIDONA 3mg ________________________ 20 COMPRIMIDOS \nTOMAR 01 COMPRIMIDO DE 12/12h, CONTINUAMENTE",
+    "informacoes": "RISPERIDONA - Condição médica que requer prescrição específica.",
     "sinonimos": [
-      "pós parto",
-      "receituário",
-      "prescrição",
-      "receita"
+      "risperidona"
+    ]
+  },
+  "metronidazol_geleia_vaginal": {
+    "area": "Medicamentos",
+    "prescricao": "METRONIDAZOL GELEIA VAGINAL 100mg/g _____ 01 BISNAGA \nAPLICAR O CONTEÚDO DE UM APLICADOR CHEIO DENTRO DA VAGINA, À \nNOITE AO DEITAR, POR 14 DIAS",
+    "informacoes": "METRONIDAZOL GELEIA VAGINAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "metronidazol geleia vaginal"
+    ]
+  },
+  "nistatina_creme_vaginal": {
+    "area": "Medicamentos",
+    "prescricao": "NISTATINA CREME VAGINAL 25.000 UI/g _____ 01 BISNAGA \nAPLICAR O CONTEÚDO DE UM APLICADOR CHEIO DENTRO DA VAGINA, À \nNOITE AO DEITAR, POR 14 DIAS",
+    "informacoes": "NISTATINA CREME VAGINAL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "nistatina creme vaginal"
+    ]
+  },
+  "salsep_spray": {
+    "area": "Medicamentos",
+    "prescricao": "SALSEP SPRAY ____________________________ 01 FRASCO \nAPLICAR 01 JATO EM CADA NARINA 5X/DIA",
+    "informacoes": "SALSEP SPRAY - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "salsep spray"
+    ]
+  },
+  "maresis": {
+    "area": "Medicamentos",
+    "prescricao": "MARESIS _____________________________ 01 FRASCO \nAPLICAR 01 JATO EM CADA NARINA CONFORME NECESSIDADE, PARA \nDESOBSTRUÍ-LA (CERCA DE 5 VEZES AO DIA)",
+    "informacoes": "MARESIS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "maresis"
+    ]
+  },
+  "rinosoro_jet": {
+    "area": "Medicamentos",
+    "prescricao": "RINOSORO JET ____________________________ 01 FRASCO SPRAY \nAPLICAR 01 JATO EM CADA NARINA 5 VEZES AO DIA",
+    "informacoes": "RINOSORO JET - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "rinosoro jet"
+    ]
+  },
+  "fluticasona_spray": {
+    "area": "Medicamentos",
+    "prescricao": "FLUTICASONA SPRAY 50mcg/jato ____________ 01 FRASCO \nAPLICAR 1 JATO EM CADA NARINA DE 12/12H POR 15 DIAS. APÓS ESTE \nPERÍODO, APLICAR UM JATO EM CADA NARINA PELA MANHÃ ATÉ COMPLETAR \n90 DIAS",
+    "informacoes": "FLUTICASONA SPRAY - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "fluticasona spray"
+    ]
+  },
+  "colirios": {
+    "area": "Alergologia",
+    "prescricao": "FENILEFRINA + TETRACAÍNA solução oftámica1% + 0,1% __ 01 FRASCO \nAPLICAR 01 GOTA NO OLHO AFETADO DE 8/8H \n\nOU\n\nTOBRAMICINA 3mg/mL + DEXAMETASONA 1mg/mL SOLUÇÃO OFTÁLMICA _ 01 FRASCO \nPINGAR 1 GOTA EM CADA OLHO, DE 6/6H POR 07 DIAS",
+    "informacoes": "COLIRIOS - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "FENILEFRINA",
+      "TOBRAMICINA"
+    ]
+  },
+  "nebulizacao": {
+    "area": "Medicamentos",
+    "prescricao": "USO INALATÓRIO (NEBULIZAÇÃO)\n\nREALIZAR 3 CICLOS EM INTERVALOS DE 15 MIN COM: \n*CLORETO DE SÓDIO 0,9% -__________ 5 ML \n*FENOTEROL 5mg/ml -_______________ 10 GOTAS \n*IPRATRÓPIO 0,25mg/ml -___________ 30 GOTAS",
+    "informacoes": "NEBULIZAÇÃO - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "NEBULIZAÇÃO"
+    ]
+  },
+  "sulfadiazina_de_prata": {
+    "area": "Medicamentos",
+    "prescricao": "SULFADIAZINA DE PRATA 10mg/g _______________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE AS LESÕES, DUAS VEZES AO DIA",
+    "informacoes": "SULFADIAZINA DE PRATA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "sulfadiazina de prata"
+    ]
+  },
+  "neomicina": {
+    "area": "Medicamentos",
+    "prescricao": "SULFATO DE NEOMICINA 3,5mg/g _________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE AS LESÕES, DUAS A TRÊS VEZES AO DIA",
+    "informacoes": "NEOMICINA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "neomicina"
+    ]
+  },
+  "mometasona": {
+    "area": "Medicamentos",
+    "prescricao": "MOMETASONA 1mg/g ____________________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A ÁREA AFETADA UMA VEZ AO DIA",
+    "informacoes": "MOMETASONA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "mometasona"
+    ]
+  },
+  "betametasona": {
+    "area": "Medicamentos",
+    "prescricao": "BETAMETASONA 0,1%  ____________________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A ÁREA AFETADA DUAS VEZES AO DIA",
+    "informacoes": "BETAMETASONA - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "betametasona"
+    ]
+  },
+  "clobetasol": {
+    "area": "Medicamentos",
+    "prescricao": "CLOBETASOL CREME 0,5 mg/g ____________ 01 BISNAGA \nAPLICAR UMA FINA CAMADA SOBRE A ÁREA AFETADA DUAS VEZES AO DIA",
+    "informacoes": "CLOBETASOL - Condição médica que requer prescrição específica.",
+    "sinonimos": [
+      "clobetasol"
     ]
   }
 }
