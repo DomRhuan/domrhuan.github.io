@@ -1,0 +1,208 @@
+2025-08-19 10:45:49,237 - INFO - Iniciando Plantão Helper com Flask...
+2025-08-19 10:45:49,237 - INFO - Arquivo index.html já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\index.html
+2025-08-19 10:45:49,238 - INFO - Arquivo style.css já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\style.css
+2025-08-19 10:45:49,238 - INFO - Arquivo script.js já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\script.js
+2025-08-19 10:45:49,238 - INFO - Arquivo banco.json já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\banco.json
+2025-08-19 10:45:49,238 - INFO - Arquivo admin.html já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\admin.html
+2025-08-19 10:45:49,238 - INFO - Arquivo admin.css já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\admin.css
+2025-08-19 10:45:49,247 - INFO - Arquivo admin.js já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\admin.js
+2025-08-19 10:45:49,259 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2025-08-19 10:45:51,690 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:51] "GET / HTTP/1.1" 200 -
+2025-08-19 10:45:51,719 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:51] "GET /style.css HTTP/1.1" 200 -
+2025-08-19 10:45:51,915 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:51] "GET /banco.json HTTP/1.1" 200 -
+2025-08-19 10:45:52,235 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:52] "GET /script.js HTTP/1.1" 200 -
+2025-08-19 10:45:55,222 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:55] "GET /admin.html HTTP/1.1" 200 -
+2025-08-19 10:45:55,521 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-19 10:45:55,578 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:55] "GET /admin.css HTTP/1.1" 200 -
+2025-08-19 10:45:55,586 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:55] "GET /admin.js HTTP/1.1" 200 -
+2025-08-19 10:45:55,893 - INFO - 127.0.0.1 - - [19/Aug/2025 10:45:55] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-19 10:46:16,104 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:46:16,104 - INFO - 127.0.0.1 - - [19/Aug/2025 10:46:16] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:52:28,518 - INFO - 127.0.0.1 - - [19/Aug/2025 10:52:28] "[36mGET /admin.html HTTP/1.1[0m" 304 -
+2025-08-19 10:52:28,546 - INFO - 127.0.0.1 - - [19/Aug/2025 10:52:28] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-19 10:52:28,779 - INFO - 127.0.0.1 - - [19/Aug/2025 10:52:28] "[36mGET /admin.css HTTP/1.1[0m" 304 -
+2025-08-19 10:52:28,876 - INFO - 127.0.0.1 - - [19/Aug/2025 10:52:28] "GET /admin.js HTTP/1.1" 200 -
+2025-08-19 10:52:29,201 - INFO - 127.0.0.1 - - [19/Aug/2025 10:52:29] "GET /banco.json HTTP/1.1" 200 -
+2025-08-19 10:52:47,393 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:52:47,393 - INFO - 127.0.0.1 - - [19/Aug/2025 10:52:47] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:52:59,369 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:52:59,370 - INFO - 127.0.0.1 - - [19/Aug/2025 10:52:59] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:53:25,691 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:53:25,691 - INFO - 127.0.0.1 - - [19/Aug/2025 10:53:25] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:53:40,118 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:53:40,118 - INFO - 127.0.0.1 - - [19/Aug/2025 10:53:40] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:54:01,710 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:54:01,711 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:01] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:54:09,827 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:54:09,827 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:09] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:54:19,178 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:54:19,179 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:19] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:54:30,640 - INFO - Banco de dados atualizado com sucesso
+2025-08-19 10:54:30,641 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:30] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-19 10:54:40,456 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:40] "GET /index.html HTTP/1.1" 200 -
+2025-08-19 10:54:40,765 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:40] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-19 10:54:41,104 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:41] "GET /banco.json HTTP/1.1" 200 -
+2025-08-19 10:54:41,340 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:41] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-19 10:54:42,283 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:42] "[36mGET /admin.html HTTP/1.1[0m" 304 -
+2025-08-19 10:54:42,595 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:42] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-19 10:54:42,628 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:42] "[36mGET /admin.css HTTP/1.1[0m" 304 -
+2025-08-19 10:54:42,629 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:42] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+2025-08-19 10:54:42,954 - INFO - 127.0.0.1 - - [19/Aug/2025 10:54:42] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-19 10:57:06,735 - INFO - 127.0.0.1 - - [19/Aug/2025 10:57:06] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-19 10:57:06,877 - INFO - 127.0.0.1 - - [19/Aug/2025 10:57:06] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-19 10:57:07,001 - INFO - 127.0.0.1 - - [19/Aug/2025 10:57:07] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-19 10:57:07,205 - INFO - 127.0.0.1 - - [19/Aug/2025 10:57:07] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 20:54:10,205 - INFO - Iniciando Plantão Helper com Flask...
+2025-08-20 20:54:10,214 - INFO - Arquivo index.html já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\index.html
+2025-08-20 20:54:10,214 - INFO - Arquivo style.css já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\style.css
+2025-08-20 20:54:10,214 - INFO - Arquivo script.js já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\script.js
+2025-08-20 20:54:10,214 - INFO - Arquivo banco.json já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\banco.json
+2025-08-20 20:54:10,214 - INFO - Arquivo admin.html já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\admin.html
+2025-08-20 20:54:10,215 - INFO - Arquivo admin.css já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\admin.css
+2025-08-20 20:54:10,215 - INFO - Arquivo admin.js já existe em: d:\PROJETOS\PLANTAO HELPER PYTHONANYWERE\admin.js
+2025-08-20 20:54:10,225 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2025-08-20 20:54:12,685 - INFO - 127.0.0.1 - - [20/Aug/2025 20:54:12] "GET / HTTP/1.1" 200 -
+2025-08-20 20:54:12,713 - INFO - 127.0.0.1 - - [20/Aug/2025 20:54:12] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 20:54:12,898 - INFO - 127.0.0.1 - - [20/Aug/2025 20:54:12] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 20:54:13,061 - INFO - 127.0.0.1 - - [20/Aug/2025 20:54:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-20 20:54:13,231 - INFO - 127.0.0.1 - - [20/Aug/2025 20:54:13] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 20:55:05,249 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:05] "GET /admin.html HTTP/1.1" 200 -
+2025-08-20 20:55:05,304 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:05] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 20:55:05,498 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:05] "GET /admin.css HTTP/1.1" 200 -
+2025-08-20 20:55:05,629 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:05] "GET /admin.js HTTP/1.1" 200 -
+2025-08-20 20:55:05,636 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:05] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 20:55:22,750 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:55:22,751 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:22] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:55:47,255 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:55:47,255 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:47] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:55:56,329 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:55:56,330 - INFO - 127.0.0.1 - - [20/Aug/2025 20:55:56] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:56:26,523 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:56:26,523 - INFO - 127.0.0.1 - - [20/Aug/2025 20:56:26] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:56:38,472 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:56:38,472 - INFO - 127.0.0.1 - - [20/Aug/2025 20:56:38] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:57:06,027 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:57:06,027 - INFO - 127.0.0.1 - - [20/Aug/2025 20:57:06] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:58:03,343 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:58:03,343 - INFO - 127.0.0.1 - - [20/Aug/2025 20:58:03] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:58:36,509 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:58:36,510 - INFO - 127.0.0.1 - - [20/Aug/2025 20:58:36] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:58:42,117 - INFO - 127.0.0.1 - - [20/Aug/2025 20:58:42] "[36mGET /admin.html HTTP/1.1[0m" 304 -
+2025-08-20 20:58:42,143 - INFO - 127.0.0.1 - - [20/Aug/2025 20:58:42] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 20:58:42,345 - INFO - 127.0.0.1 - - [20/Aug/2025 20:58:42] "[36mGET /admin.css HTTP/1.1[0m" 304 -
+2025-08-20 20:58:42,456 - INFO - 127.0.0.1 - - [20/Aug/2025 20:58:42] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+2025-08-20 20:58:42,774 - INFO - 127.0.0.1 - - [20/Aug/2025 20:58:42] "GET /banco.json HTTP/1.1" 200 -
+2025-08-20 20:59:17,311 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:17] "[36mGET /admin.html HTTP/1.1[0m" 304 -
+2025-08-20 20:59:17,617 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:17] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 20:59:17,617 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:17] "[36mGET /admin.css HTTP/1.1[0m" 304 -
+2025-08-20 20:59:17,669 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:17] "GET /admin.js HTTP/1.1" 200 -
+2025-08-20 20:59:17,883 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:17] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 20:59:31,660 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:59:31,660 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:31] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:59:49,788 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 20:59:49,788 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:49] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 20:59:56,303 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:56] "GET /index.html HTTP/1.1" 200 -
+2025-08-20 20:59:56,607 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:56] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 20:59:56,917 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:56] "GET /banco.json HTTP/1.1" 200 -
+2025-08-20 20:59:57,168 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:57] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 20:59:57,866 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:57] "[36mGET /admin.html HTTP/1.1[0m" 304 -
+2025-08-20 20:59:58,184 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:58] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 20:59:58,208 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:58] "[36mGET /admin.css HTTP/1.1[0m" 304 -
+2025-08-20 20:59:58,208 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:58] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+2025-08-20 20:59:58,517 - INFO - 127.0.0.1 - - [20/Aug/2025 20:59:58] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:00:13,895 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:00:13,896 - INFO - 127.0.0.1 - - [20/Aug/2025 21:00:13] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:00:20,746 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:00:20,746 - INFO - 127.0.0.1 - - [20/Aug/2025 21:00:20] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:00:29,165 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:00:29,165 - INFO - 127.0.0.1 - - [20/Aug/2025 21:00:29] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:00:37,560 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:00:37,561 - INFO - 127.0.0.1 - - [20/Aug/2025 21:00:37] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:02:08,754 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:02:08,755 - INFO - 127.0.0.1 - - [20/Aug/2025 21:02:08] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:03:24,036 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:03:24,036 - INFO - 127.0.0.1 - - [20/Aug/2025 21:03:24] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:03:58,154 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:03:58,154 - INFO - 127.0.0.1 - - [20/Aug/2025 21:03:58] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:04:06,890 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:04:06,891 - INFO - 127.0.0.1 - - [20/Aug/2025 21:04:06] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:04:15,499 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:04:15,499 - INFO - 127.0.0.1 - - [20/Aug/2025 21:04:15] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:04:27,208 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:04:27,209 - INFO - 127.0.0.1 - - [20/Aug/2025 21:04:27] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:04:37,148 - INFO - Banco de dados atualizado com sucesso
+2025-08-20 21:04:37,149 - INFO - 127.0.0.1 - - [20/Aug/2025 21:04:37] "POST /salvar-banco HTTP/1.1" 200 -
+2025-08-20 21:06:31,852 - INFO - 127.0.0.1 - - [20/Aug/2025 21:06:31] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:06:31,939 - INFO - 127.0.0.1 - - [20/Aug/2025 21:06:31] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:06:32,108 - INFO - 127.0.0.1 - - [20/Aug/2025 21:06:32] "GET /banco.json HTTP/1.1" 200 -
+2025-08-20 21:06:32,263 - INFO - 127.0.0.1 - - [20/Aug/2025 21:06:32] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 21:09:57,940 - INFO - 127.0.0.1 - - [20/Aug/2025 21:09:57] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:09:57,963 - INFO - 127.0.0.1 - - [20/Aug/2025 21:09:57] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:09:58,201 - INFO - 127.0.0.1 - - [20/Aug/2025 21:09:58] "GET /banco.json HTTP/1.1" 200 -
+2025-08-20 21:09:58,516 - INFO - 127.0.0.1 - - [20/Aug/2025 21:09:58] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:13:53,390 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:53] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:13:53,464 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:53] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:13:53,635 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:53] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:13:53,778 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:53] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:13:57,560 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:57] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:13:57,877 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:57] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:13:57,884 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:57] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:13:58,127 - INFO - 127.0.0.1 - - [20/Aug/2025 21:13:58] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 21:14:56,073 - INFO - 127.0.0.1 - - [20/Aug/2025 21:14:56] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:14:56,096 - INFO - 127.0.0.1 - - [20/Aug/2025 21:14:56] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:14:56,325 - INFO - 127.0.0.1 - - [20/Aug/2025 21:14:56] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:14:56,650 - INFO - 127.0.0.1 - - [20/Aug/2025 21:14:56] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:15:19,193 - INFO - 127.0.0.1 - - [20/Aug/2025 21:15:19] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:15:19,514 - INFO - 127.0.0.1 - - [20/Aug/2025 21:15:19] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:15:19,518 - INFO - 127.0.0.1 - - [20/Aug/2025 21:15:19] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:15:19,781 - INFO - 127.0.0.1 - - [20/Aug/2025 21:15:19] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:20:04,417 - INFO - 127.0.0.1 - - [20/Aug/2025 21:20:04] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:20:04,436 - INFO - 127.0.0.1 - - [20/Aug/2025 21:20:04] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:20:04,685 - INFO - 127.0.0.1 - - [20/Aug/2025 21:20:04] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:20:05,011 - INFO - 127.0.0.1 - - [20/Aug/2025 21:20:05] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:23:47,140 - INFO - 127.0.0.1 - - [20/Aug/2025 21:23:47] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:23:47,162 - INFO - 127.0.0.1 - - [20/Aug/2025 21:23:47] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:23:47,407 - INFO - 127.0.0.1 - - [20/Aug/2025 21:23:47] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:23:47,721 - INFO - 127.0.0.1 - - [20/Aug/2025 21:23:47] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:28:47,083 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:47] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:28:47,190 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:47] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:28:47,348 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:47] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:28:47,505 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:47] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 21:28:48,127 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:48] "[36mGET /admin.html HTTP/1.1[0m" 304 -
+2025-08-20 21:28:48,442 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:48] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:28:48,473 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:48] "[36mGET /admin.css HTTP/1.1[0m" 304 -
+2025-08-20 21:28:48,473 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:48] "GET /admin.js HTTP/1.1" 200 -
+2025-08-20 21:28:48,787 - INFO - 127.0.0.1 - - [20/Aug/2025 21:28:48] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:30:12,213 - INFO - 127.0.0.1 - - [20/Aug/2025 21:30:12] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:30:12,321 - INFO - 127.0.0.1 - - [20/Aug/2025 21:30:12] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:30:12,479 - INFO - 127.0.0.1 - - [20/Aug/2025 21:30:12] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:30:12,637 - INFO - 127.0.0.1 - - [20/Aug/2025 21:30:12] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 21:35:01,625 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:01] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:35:01,645 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:01] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:35:01,900 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:01] "GET /banco.json HTTP/1.1" 200 -
+2025-08-20 21:35:02,220 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:02] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 21:35:03,086 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:03] "[36mGET /admin.html HTTP/1.1[0m" 304 -
+2025-08-20 21:35:03,392 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:03] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:35:03,425 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:03] "[36mGET /admin.css HTTP/1.1[0m" 304 -
+2025-08-20 21:35:03,425 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:03] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+2025-08-20 21:35:03,739 - INFO - 127.0.0.1 - - [20/Aug/2025 21:35:03] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:42:07,670 - INFO - 127.0.0.1 - - [20/Aug/2025 21:42:07] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:42:07,792 - INFO - 127.0.0.1 - - [20/Aug/2025 21:42:07] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:42:07,933 - INFO - 127.0.0.1 - - [20/Aug/2025 21:42:07] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:42:08,104 - INFO - 127.0.0.1 - - [20/Aug/2025 21:42:08] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 21:44:57,363 - INFO - 127.0.0.1 - - [20/Aug/2025 21:44:57] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:44:57,390 - INFO - 127.0.0.1 - - [20/Aug/2025 21:44:57] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:44:57,614 - INFO - 127.0.0.1 - - [20/Aug/2025 21:44:57] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:44:57,929 - INFO - 127.0.0.1 - - [20/Aug/2025 21:44:57] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:45:10,669 - INFO - 127.0.0.1 - - [20/Aug/2025 21:45:10] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:45:10,974 - INFO - 127.0.0.1 - - [20/Aug/2025 21:45:10] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:45:11,289 - INFO - 127.0.0.1 - - [20/Aug/2025 21:45:11] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:45:11,552 - INFO - 127.0.0.1 - - [20/Aug/2025 21:45:11] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-08-20 21:46:12,714 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:12] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:46:12,734 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:12] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:46:12,962 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:12] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:46:13,285 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:13] "GET /script.js HTTP/1.1" 200 -
+2025-08-20 21:46:20,223 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:20] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2025-08-20 21:46:20,543 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:20] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-20 21:46:20,552 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:20] "[36mGET /banco.json HTTP/1.1[0m" 304 -
+2025-08-20 21:46:20,805 - INFO - 127.0.0.1 - - [20/Aug/2025 21:46:20] "[36mGET /script.js HTTP/1.1[0m" 304 -
